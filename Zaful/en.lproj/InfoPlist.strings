@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Zaful
+
+  Created by zhaowei on 2017/4/5.
+  Copyright © 2017年 Y001. All rights reserved.
+*/
+'NSCameraUsageDescription' = 'cameraDesciption';
+'NSContactsUsageDescription' = 'contactsDesciption';
+'NSPhotoLibraryUsageDescription' = 'photoLibraryDesciption';

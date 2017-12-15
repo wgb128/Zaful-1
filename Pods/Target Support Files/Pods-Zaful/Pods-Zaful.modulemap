@@ -1,0 +1,6 @@
+framework module Pods_Zaful {
+  umbrella header "Pods-Zaful-umbrella.h"
+
+  export *
+  module * { export * }
+}

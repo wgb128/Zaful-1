@@ -1,0 +1,817 @@
+/*
+ Localizable.strings
+ Zaful
+ 
+ Created by zhaowei on 2017/2/13.
+ Copyright © 2017年 Y001. All rights reserved.
+ */
+
+/*GLOBAL*/
+"OK" = "نعم";
+"Cancel" = "إلغاء";
+"Failed" = "فشل";
+"SKU" = "SKU";
+"Color" = "اللون";
+"Size" = "الحجم";
+"Qity" = "الكمية";
+"Total" = "المجموع";
+
+"LESS" = "أقل";
+
+"Global_Network_Not_Available" = "!شبكة غير متوفر";
+"Global_Network_Server_Error" = "خطأ استثناء الخادم";
+"Global_Network_Login_First" = "رجو تسجيل الدخول أولا";
+"Global_Network_No_MoreData" = "ليس مزيد من البيانات هنا";
+"Global_Network_Illegal_Request" = "طلب غير قانوني";
+
+"LaunchStatusViewController_Tip" = "ليس اتصال بالإنترنت هناك.\nرجي فحص الشبكة.";
+"LaunchStatusViewController_Retry" = "إعادة المحاولة";
+
+/*ZFBaseViewController*/
+"Base_VC_ShowAgain_TitleLabel" = "الطلب المرة الأخري";
+"Base_VC_Mix_Characters_Tip" = " ينبغي الكنية 2 رمز علي الأفل ";
+"Base_VC_Max_Characters_Tip" =  " يكون من اللقب 35 حرفا علي الأكثر";
+"Base_VC_Enter_NickName_Message" = "يرجي إدخال الكنية";
+
+//没有数据的提醒词
+"Global_VC_NO_DATA" = "فشل التحميل, يرجي المحاولة مرة أخري في وقت لاحق.";
+//空白页的title
+"Global_EMPTY_TITLE" = "ليس هناك اتصال بالانترنت";
+//没有网络的提醒词
+"Global_NO_NET_404" = "يرجي التحقق من الشبكة";
+
+/*ZFShareViewController*/
+"Share_VC_Cancel" = "إلغاء";
+"Share_VC_Shared_Success" = "المشترك بنجاح";
+"Share_VC_Unkown_Error" = "خطأ غير معروف";
+"Share_VC_No_Twitter_Accounts" = "Twitter لا يوجد حسابات";
+"Share_VC_Opration_Twitter_Tip" = "ليس حسابات التمييز هناك,يمكنك أن تضيف أو إنشاء في إعدادات  ";
+"Share_VC_I_Know" = "أعرف";
+"Share_VC_Copied_Success" = "نسخ بنجاح";
+"Share_VC_Less_Three_Tip" = " !Zaful إجمالي <3! التحقق من ذلك على. Zaful هناك الشيء القليل الجديد من";
+"Share_VC_Shared_Facebook_Success" = "Facebook المشتركة بنجاح في";
+"Share_VC_Shared_Messenger_Success" = "Messenger المشتركة بنجاح في";
+"Share_VC_Close" = "اغلاق";
+"Share_VC_Facebook" = "Facebook";
+"Share_VC_Pinterest" = "Pinterest";
+"Share_VC_CopyLink" = "انسخ الرابط";
+"Share_VC_Twitter" = "Twitter";
+
+
+"Share_VC_CheckOut_Tip" = "Zaful, really <3 this!  تحقق من ذلك الآن.Zaful يكون المحلات العديدة علي !";
+
+/*AppDelegate*/
+"AppDelegate_Open" = "فتح";
+
+/*ZFPaymentView*/
+"ZFPaymentView_Alert_Message" = " لم  يتم الدفع، هل تؤكد أنك تريد أن ترجع؟";
+"ZFPaymentView_Alert_No" = "لا";
+"ZFPaymentView_Alert_Yes" = "نعم";
+"ZFPaymentView_Close_Title" = "عودة";
+
+/*OrderFinishViewController*/
+"OrderFinish_VC_TipLabel_One" = "شكرا علي تسوقك ";
+"OrderFinish_VC_TipLabel_Two" = "قد أحالت طلبك بنجاح";
+"OrderFinish_VC_TipLabel_Three" = " يرجي تذكر رقم طلبك";
+"OrderFinish_VC_Account_Button" = "حسابي";
+"OrderFinish_VC_Home_Button" = "عودة الي الرئيس";
+
+/*OrderFailureViewController*/
+"OrderFailure_VC_Tip" = "فشل الدفع!";
+"OrderFailure_VC_Account_Button" = "فحص الطلب";
+
+/*Sign*/
+"SignIn_Button" = "تسجيل  الدخول";
+"SignIn_Button_left" = "تسجيل  الدخول";
+"SignIn_Email" = "البريد الإلكتروني";
+"SignIn_Password" = "كلمة المرور";
+"SignIn_ForgotPassword" = "نسيت الكلمة السر";
+"Guide_Alter_Tips" = "هل لديك الحساب ؟";
+"StartLoad_Skip_Tips" = "تخطى";
+"login_back" = "رجوع";
+
+/*Register*/
+"Register_Button" = "تسجيل";
+"Register_Button_left" = "تسجيل";
+"Register_Email" = "عنوان البريد";
+"Register_Password" = "كلمة المرور";
+"Register_subscribe" = " اشترك في نشرتنا الإخبارية";
+"Register_FB_Connect" = "   فيس بوك";
+"Register_GG_Connect" = "   جوجل";
+"Register_policy" = "أنا موافق علي اتفاقية المستخدم";
+"Register_agree" = "أنا موافق على زافول";
+"Register_TermsOfUser" = " قواعد الاستخدام ";
+"Register_zaful.com" = "لإكمال التسجيل، يجب أن توافق على شروط و احكام موقع Zaful";
+
+
+/*Login*/
+"Login_Confirm_Tip_Email" = "يرجى أن تدخل عنوان البريد الإلكتروني صحيح";
+"Login_Confirm_Tip_Password" = "يجب كلمتك السر أن تكون 6-20 حرفا";
+"Login_Terms_Web_Title" = "قواعد الاستخدام";
+
+"LoginForgotView_Title" = "هل نسيت كلمة المرور";
+"LoginForgotView_EmailView_Descripe" = "تأكيد الهوية الخاصة بك لإعادة تعيين كلمة المرور";
+"LoginForgotView_SuccessView_Descripe" = "لقد أرسلت رسالة بالبريد الالكتروني الي";
+"LoginForgotView_SuccessView_Descripe2" = "مع تعليمات لإعادة تعيين كلمة المرور الخاصة بك ";
+"LoginForgotView_Your_Email" = "يرجي ادخل عنوان البريد بك";
+"LoginForgotView_Valid_Email" = "يرجي إدخال عنوان البريد الفعالي ";
+"LoginForgotView_OK" = "نعم";
+"LoginForgotView_Cancel" = "إلغاء";
+
+/*Tabbar*/
+"Tabbar_Home" = "أسرة";
+"Tabbar_Categories" = "الأصناف";
+"Tabbar_Z-Me" = "Z-Me";
+"Tabbar_Wishlist" = "مفضلة";
+"Tabbar_Account" = "الحساب";
+
+/*Home*/
+"Home_SectionHeader_Title" = "منتجاتنا الشعبية";
+"GoodsSortViewController_Type_Recommend" = "توصية";
+"GoodsSortViewController_Type_New" = "وصلنا حديثا";
+"GoodsSortViewController_Type_LowToHigh" = "الأسعار من الأرخص للأعلي";
+"GoodsSortViewController_Type_HighToLow" = "الأسعار من الأعلي للأرخص";
+"GoodsSortViewController_Type_COD"       = "الدفع عند الاستلام";
+"GoodsSortViewController_COD_Guide_Tip"  = "جميع المنتجات المدرجة في هذة القائمة تدعم الدغع نقداً عند الإستلام";
+
+/*Category*/
+"Category_VC_Title" = "الصنف";
+"Category_Item_Segmented_Category" = "الصنف";
+"Category_Item_Segmented_Sort" = "النوع";
+"Category_Item_Segmented_Refine" = "غربلة";
+"Category_Child_VC_Title" = "الأصناف";
+"Category_Done" = "تمام";
+"Category_Price_Range" = "نطاق السعر";
+"Category_APPLY" = "تطبيق";
+
+"GoodsSort_VC_Title" = "النوع";
+"GoodsRefine_VC_Title" = "غربلة";
+"GoodsRefine_VC_Clear" = "مسح";
+"GoodsRefine_VC_All" = "جميع";
+"CategoryNoDate" = "آسف، لم نعثر على أي شيء%@";
+
+/*Search*/
+"Search_PlaceHolder_Search" = "البحث";
+"Search_ResultViewModel_Tip" = "لا يتفق %@ مع أي المنتجات، يرجى محاولة الكلمة الأخرى";
+"Search_ResultHeadView_Sort" = "النوع";
+
+/*Detail*/
+"Detail_Product_Shipping_Tips" = "أسئلة شائعة";
+"Detail_Product_Description" = "وصف المنتج";
+"Detail_Product_SizeGuides" = "دلائل المقاييس";
+"Detail_Product_ModelStats" = "إحصائيات الموديل";
+"Detail_Product_Reviews" = "التعليقات";
+"Detail_Product_Recommend" = "ربما يعجبك أيضا";
+"Detail_Product_AddToBag" = "الاضافة الي العربة";
+"Detail_Product_ProcessingTime" = "زمن اليعامل: تسليم في %@ أيام العمل.";
+"Detail_Product_OutOfStock" = "تنقص البضائع";
+"Detail_Product_SoldOut" = "تنقص البضائع";
+"Detail_Product_HeaderView_Promote_Clearance" = "تنقص البضائع";
+"Detail_Product_HeaderView_Promote_Sale" = "تخفيض";
+"Detail_Product_HeaderView_MobileOnly" = "APPالسعر  فقط في";
+"Detail_Product_HeaderView_EXTRA" = "توفير %@$ لاستخدام التطبيق";
+"Detail_Product_Refresh_Footer" = "  نقاط بعد كتب التعليق الواحد Z ليس التعليقات الأكثر, سيحصل علي   ";
+"Detail_Product_GoodsReviewCell_TipLabel" = "ليس التعليق.\n تيكون المراجع الأولي وسيحصل علي 40 نقطة";
+"Detail_Product_GoodsReviewCell_ViewAll" = "مشهد الجميع";
+
+/*GoodsReviewsViewController*/
+"GoodsReviews_VC_Title" = "التعليقات";
+"GoodsReviews_HeaderView_Reviews" = "التعليقات";
+
+/*Bag*/
+"Bag_VC_Title" = "حقيبة التسوق";
+"Bag_RecentHistory" = "تواريخي الأخيرة";
+"Bag_Total" = "المجموع:";
+"Bag_Discount_Tips" = "خصم:";
+"Bag_CheckOut" = "الدفع";
+"Bag_Color" = "اللون";
+"Bag_Size" = "الحجم";
+
+"CartViewModel_Alert_Message" = "يرجى تحديد عنصر واحد على الأقل";
+"CartViewModel_NoData_TitleLabel" = "حقيبة التسوق هي فارغة";
+"CartViewModel_NoData_TitleButton" = "مواصلة التسوق";
+"CartHeaderView_FREELABELTEXT" = "شحن مجاني";
+"CartFooterView_CONTENTSTRING" = "عودة الأموال في 30 أيام";
+"CartUnavailableProductTips" = "المنتجات غير متاح";
+"CartClearAllButtonTips" = "امسح الكل";
+"CartUnavailableViewMoreTips" = "عرض المزيد";
+"CartUnavailableFoldUpTips" = "طوى";
+"CartUnavailableGoodsTypeSoldOut" = "تم البيع";
+"CartUnavailableGoodsTypeOutOfStore" = "إنتهى من المخزن";
+"CartUnavailableGoodsTips" = "غير متاح";
+"CartSelectAllTips" = "اختر الكل";
+"CartSelectAllItemsTips" = "اختار جميع المنتجات";
+"CartSelectItemsTips" = "اختار المنتجات (%lu)";
+"CartAddToFavoritesSuccessfully" = "اضافت الي المفضلات بنجاح !";
+"CartCancelFavoritesSuccessfully" = "حذفت  مفضلات بنجاح !";
+"CartRemoveProductTips" = "هل تريد أن تحذف هذه المنتجات ؟";
+"CartUnavailableClearAllTips" = "هل تريد بالـتأكيد أن تحذف هذه المنتجات؟";
+"CartRemoveProductNo" = "لا";
+"CartRemoveProductYes" = "نعم";
+/*CartOrderInfo Address*/
+"CartOrderInfo_Address_List_Close" = "اغلاق";
+
+/*CartInfoGoodsViewController*/
+"CartInfo_Goods_VC_Title" = "قائمة المنتجات";
+
+/*OrderInfoViewModel*/
+"OrderInfoViewModel_valid_coupon_tip" = "الرجاء إدخال رمز قسيمة صالحة.";
+"OrderInfoViewModel_alertMsg_COD" = "السعر الإجمالي (السعر بعد الخصم) لطلب الدفع عند الاستلام يجب أن يكون ما بين %@ الي %@ دولار.";
+"OrderInfoViewModel_COD_cost" = "تكلفة COD";
+
+/*CartOrderInfo*/
+"CartOrderInfo_VC_Title" = "معلومات الطلب";
+"CartOrderInfo_RewardsCell_Instruction" = "(@% هناك %@ النقاط في الحساب الخاص بك، يمكنك استخدام %@ ماكس نقاط لهذا الأمر (حفظ";
+"CartOrderInfo_RewardsCell_RewardLabel" = "نقطة Z";
+"CartOrderInfo_RewardsCell_MaxPoint" = "!تجاوز نقطة الحد الأعلي";
+"CartOrderInfo_RewardsCell_ThanZero" = "!تتحتم نقطة أن تتجاوز 0";
+"CartOrderInfo_Goods_Items" = "المنتجات";
+"CartOrderInfo_Goods_Item" = "البند";
+
+"CartOrderInfo_PayMethodCell_PayPalLabel" = "الطريقة الامن والاسهل لالدفع";
+"CartOrderInfo_PayMethodCell_WordPayLabel" = "الدفع عن طريق بطاقة الائتمان مباشرة";
+"CartOrderInfo_PromotionCodeCell_PromotionCodeLabel" = "رمز الكوبونات";
+"CartOrderInformationBottomView_PlaceOrderBtn" = "وضع طلب";
+
+"CartOrderInforTipMessage" = "الرجاء تحديد رقم الناقل في صفحة تحرير العنوان";
+
+"CartOrderInfoViewModel_PlaceOrder_NoShipping" = "عفوا, لا يكننا أن ننقل الي المقصيد الذي اختارته حاليا.";
+"CartOrderInfoViewModel_PlaceOrder_NoPayment" = "عفوا, لا يمكان بلدكم أن تدعم طريقة الدفع التي اختيارها.";
+"CartOrderInfoModel_PaymentStatusDone_Alert_Message" = "! تم تقديم طلبك بنجاح ";
+"CartOrderInfoModel_PaymentStatusDone_Alert_Title" = "اتمام الدفع";
+"CartOrderInfoModel_PaymentStatusCancel_Alert_Message" = "ألغيت الدفع. لمس \"الدفع الآن\"  للمحاولة مرة أخرى";
+"CartOrderInfoModel_PaymentStatusCancel_Alert_Title" = "إلغاء الدفع";
+"CartOrderInfoModel_PaymentStatusFail_Alert_Message" = "ألغيت الدفع. لمس\"الدفع الآن\"  للمحاولة مرة أخرى";
+"CartOrderInfoModel_PaymentStatusFail_Alert_Title" = "إلغاء الدفع";
+
+/*CartOrderInfo Coupon*/
+"CartOrderInfo_CouponSelect_VC_Title" = "كوبوني";
+"CartOrderInfo_CouponCode" = "اكواد الكوبون";
+"CartOrderInfo_CouponSelect_PodeTextFiled_Placeholder" = "يمكنك كتب إدخال  اكواد الترويج!";
+"CartOrderInfo_CouponSelect_PlaceOrderBtn" = "وضع طلب";
+"CartOrderInfo_MyCouponPickerView_CodeTextField_Placeholder" = "يمكنك إدخال اكواد الترويج";
+"CartOrderInfo_MyCouponPickerView_APPLY" = "تطبيق";
+"CartOrderInfo_MyCouponPickerView_Component_NotToUse" = "لا أريد أن يستخدم";
+"CartOrderInfo_MyCouponPickerView_Title" = "كوبوني";
+"CartOrderInfo_UnableCouponCell_Tip" = "لا أريد أن يستخدم";
+
+//CartOrderInfo TotalPrice Cell
+"CartOrderInfo_TotalPrice_Cell_Subtotal" = "حاصل الجمع";
+"CartOrderInfo_TotalPrice_Cell_RewardsSaving" = "نقاط Z الادخار";
+"CartOrderInfo_TotalPrice_Cell_PromotionCodeSaving" = "خصم كود التخفيض";
+"CartOrderInfo_TotalPrice_Cell_ShippingCost" = "تكلفة الشحن";
+"CartOrderInfo_TotalPrice_Cell_ShippingInsurance" = "تأمين الشحن";
+"CartOrderInfo_TotalPrice_Cell_GrandTotal" = "اجمالي";
+"CartOrderInfo_TotalPrice_Cell_TotalPayable" = "الدفع الإجمالي";
+"CartOrderInfo_TotalPrice_Cell_Discount" = "خصمCOD";
+"CartOrderInfo_TotalPrice_Cell_AirCargoInsurance" = "تأمين الشحن الجوي";
+"CartOrderInfo_TotalPrice_Cell_PayNow" = "الدفع الآن";
+
+//CartOrderInfo ShippingInsuranceCell Cell
+"CartOrderInfo_ShippingInsuranceCell_Cell_ShippingInsurance" = "تأمين الشحن";
+
+//CartOrderInfo ShippingMethodSubCell Cell
+"CartOrderInfo_ShippingMethodSubCell_Cell_OFF" = "تخفيض";
+
+/*VerificationView*/
+"VerificationView_titleLabel" = "%@دفع المبلغ";
+"VerificationView_alretLabel_error" = "خطأ رمز التحقق من الصحة";
+"VerificationView_alretLabel_empty" = "رمز التحقق فارغ";
+"VerificationView_showButton_resent" = "الاستياء بعد %@ ثانية";
+"VerificationView_showButton_titile" = "إرسال الرسالة النصية";
+
+"VerificationView_detailLabel" = "لأمن النظام، سوف نقوم بإرسال رسالة إلى عنوان الشحن الخاص بك على رقم الهاتف، يرجى ملء في رمز التحقق أدناه";
+
+"VerificationView_codeField" = "الرجاء إدخال صحيح التحقق من التعليمات البرمجية.";
+"VerificationView_VERIFY" = "تحقق";
+
+/*Wishlist*/
+"Collection_VC_Title" = "مفضلتي";
+"CollectionViewModel_NoData_Tip" = "بحث أحدث الأساليب واضافة المفضلة لديك!";
+
+/*Account*/
+"Account_VC_Title" = "الحساب";
+"Account_VC_SignOut_Alert_Message" = "هل تؤكد الخروج من هذه الصفحة؟";
+"Account_VC_SignOut_Alert_No" = "لا";
+"Account_VC_SignOut_Alert_Yes" = "نعم";
+
+"Account_Cell_Orders" = "طلباتي";
+"Account_Cell_Points" = "نقطتي";
+"Account_Cell_Coupon" = "الخصم";
+"Account_Cell_Address" = "العنوان";
+"Account_Cell_Password" = "كلمة المرور";
+"Account_Cell_Currency" = "العملات";
+"Account_Cell_Setting" = "الاعداد";
+"Account_Cell_Help" = "المساعدة";
+"Account_SignOut_Button" = "خرج الحساب";
+"Account_Cell_Message_Us" = "اتصل بنا";
+
+"AccoundHeaderView_TackPhoto" = "تصوير";
+"AccoundHeaderView_ChooseAlbum" = "اختيار من الألبوم تواقيع";
+"AccoundHeaderView_Settings_Camera" = "( إلى الكاميرا. (في الإعدادات> الخصوصية> كاميرا zaful  السماح بالوصول";
+"AccoundHeaderView_Settings_Photos" = "( إلى الكاميرا. (في الإعدادات> الخصوصية> كاميرا zaful  السماح بالوصول";
+"AccoundHeaderView_Divice_Unavailable" = "آسف، لا توجد كاميرا أو كاميرا غير متوفرة.";
+
+
+/*My Orders*/
+"MyOrders_VC_Title" = "طلباتي";
+"MyOrders_Cell_Order" = "الطلب";
+"MyOrders_Cell_Total" = "المجموع";
+"MyOrders_Cell_TotalPayable" = "الدفع الإجمالي";
+"MyOrders_Cell_PayNow" = "الدفع الآن";
+"ZFOrderList_Contact_us" = "اتصل بنا";
+
+"MyOrdersViewModel_PaymentStatusCancel_Message" = "ألغيت الدفع. لمس \"الدفع الآن\"  للمحاولة مرة أخرى";
+"MyOrdersViewModel_PaymentStatusCancel_Title" = "إلغاء الدفع";
+"MyOrdersViewModel_PaymentStatusFail_Message" = "ألغيت الدفع. لمس\"الدفع الآن\"  للمحاولة مرة أخرى";
+"MyOrdersViewModel_PaymentStatusFail_Title" = "إلغاء الدفع";
+
+"MyOrdersViewModel_NoData_Tip" = "ليس أي البضائع حتى الآن ";
+"MyOrdersViewModel_Cancel_Order_Message" = "لا يمكنك إلغاء هذا اطلب!";
+
+//Order Detail
+"OrderDetail_VC_Title" = "تفاصيل الطلب";
+"OrderDetailViewController_COD_cost" = "تكلفة COD";
+"DeliveryShippingView_deliveryLabel" = "وضعت الطلب بنجاح .شكرا لك علي ثقتك على زافول. سنتصل بك  بالهاتف لك بـتأكيد طلبك. من فضلك تبقي الهاتف متواصل خلال 48 ساعة. مع الشكر.";
+
+"OrderDetailViewModel_CancelOrder_Message" = "هل تؤكد أنك ترغب في إلغاء هذا الطلب؟";
+"OrderDetailViewModel_CancelOrder_No" = "لا";
+"OrderDetailViewModel_CancelOrder_Yes" = "نعم";
+
+//Order Cell
+"OrderDetail_Order_Cell_Order" = "الطلب";
+"OrderDetail_Cell_PaymentStatusCancel_Message" = "ألغيت الدفع. لمس \"الدفع الآن\"  للمحاولة مرة أخرى";
+"OrderDetail_Cell_PaymentStatusCancel_Title" = "إلغاء الدفع";
+"OrderDetail_PaymentStatusFail_Message" = "ألغيت الدفع. لمس\"الدفع الآن\"  للمحاولة مرة أخرى";
+"OrderDetail_Cell_PaymentStatusFail_Title" = "إلغاء الدفع";
+"OrderDetail_Cell_CancelOrder_Message" = "هل تؤكد أنك ترغب في إلغاء هذا الطلب؟";
+"OrderDetail_Cell_CancelOrder_No" = "لا";
+"OrderDetail_Cell_CancelOrder_Yes" = "نعم";
+
+//Delivery Cell
+"OrderDetail_Delivery_Cell_Date" = "تاريخ";
+"OrderDetail_Delivery_Cell_Delivery" = "التوصيل";
+"OrderDetail_Delivery_Cell_Payment" = "الدفع";
+
+//Goods Cell
+"OrderDetail_Goods_Cell_Sku" = "SKU";
+"OrderDetail_Goods_Cell_Color" = "اللون";
+"OrderDetail_Goods_Cell_Size" = "الحجم";
+"OrderDetail_Goods_Cell_Total" = "المجموع";
+"OrderDetail_Goods_Cell_WriteReview" = "    اكتب التعليقات    ";
+"OrderDetail_Goods_Cell_CheckMyReview" = "    مراجعة التعليقات    ";
+
+//TotalPrice Cell
+"OrderDetail_TotalPrice_Cell_Subtotal" = "حاصل الجمع";
+"OrderDetail_TotalPrice_Cell_RewardsSaving" = "نقاط Z الادخار";
+"OrderDetail_TotalPrice_Cell_PromotionCodeSaving" = "خصم الحدث";
+"OrderDetail_TotalPrice_Cell_ShippingCost" = "تكلفة الشحن";
+"OrderDetail_TotalPrice_Cell_ShippingInsurance" = "تأمين الشخن";
+"OrderDetail_TotalPrice_Cell_GrandTotal" = "اجمالي";
+"OrderDetail_TotalPrice_Cell_TotalPayable" = "الدفع الإجمالي";
+"OrderDetail_TotalPrice_Cell_Discount" = "خصمCOD";
+"OrderDetail_TotalPrice_Cell_AirCargoInsurance" = "تأمين الشحن الجوي";
+"OrderDetail_TotalPrice_Cell_PayNow" = "الدفع الآن";
+"OrderDetail_TotalPrice_Cell_Contiue" = "Continue to pay";
+"OrderDetail_TotalPrice_Cell_Check" = "Check the Boleto Bancario";
+
+/*OrderFinishViewController*/
+"OrderFinishViewController_tipLab4" = "سنكون على السلع في أقرب وقت ممكن ليديك، ويرجى الانتباه إلى التحقق";
+"OrderFinishViewController_tipLab3" = "%@:دفع المبلغ";
+"OrderFinishViewController_tipLab1" = "%@:طلب";
+"OrderFinishViewController_tipLab2" = "دفع الأسلوب: النقدية على التسليم";
+
+//Write a review
+"WriteReview_VC_Title" = "اكتب التعليقات";
+"WriteReview_Sku" = "SKU";
+"WriteReview_Color" = "اللون";
+"WriteReview_Size" = "الحجم";
+"WriteReview_Total" = "المجموع";
+"WriteReview_Note" = "ملاحظة:احراز 20 نقاط بعد المشطرة,من  تقدم التعليق قبل أول 5 سوف احراز مضاعفة نقاط";
+
+"WriteReview_Rating" = "تقييم";
+"WriteReview_Content" = "الصور";
+"WriteReview_Textfiled_Placeholder" = "يرجى إرسال 30 حرفا على الأقل";
+"WriteReview_Textfiled_Min_Tip" = "يرجى إرسال 30 حرفا على الأقل";
+"WriteReview_Textfiled_Max_Tip" = "يجب أن يكون أقل من 3000 أحرف";
+"WriteReview_Submit" = "العرض";
+
+
+//Check my review
+"CheckMyReview_VC_Title" = "مراجعة التعليقات";
+"CheckMyReview_Sku" = "SKU";
+"CheckMyReview_Color" = "اللون";
+"CheckMyReview_Size" = "الحجم";
+"CheckMyReview_Total" = "المجموع";
+
+/*My Points*/
+"MyPoints_VC_Title" = "نقاطي";
+"MyPoints_Rewards_Label" = "نقاط";
+"MyPoints_WhatPoints_VC_Title" = "Z ماذا نقاط";
+"MyPoints_EmptyData_Tip" = " Z لم يكن لديك أي نقاط ";
+
+/*My Coupon*/
+"MyCoupon_VC_Title" = "كوبوني";
+"MyCoupon_VC_Header_Label" = "يمكنك أن تستخدمها متي الدفع";
+"MyCoupon_Coupon_Cell_CouponCode" = "اكواد الكوبون";
+"MyCoupon_Coupon_Cell_Expires_Date" = "تاريخ";
+
+"MyCoupon_Coupon_Unused" = "غير مستخدمة";
+"MyCoupon_Coupon_Used" = "استخدمت";
+"MyCoupon_Coupon_Expired" = "منتهية الصلاحية";
+
+"MyCouponViewModel_NoData_TitleLabel" = "لم يكن لديك الترويج الآن!";
+
+/*My Address*/
+"Address_VC_Title" = "العنوان";
+"Address_VC_Add_Address" = "اضافة العنوان الجديدة";
+"Address_VC_Done" = "تمام";
+"Address_VC_Edit" = "تحرير";
+
+"Address_List_Cell_Default" = "العنوان الافتراضي";
+"Address_List_Cell_Delete" = "حذف";
+"Address_List_Cell_Edit" = "تحرير";
+
+"AddressListViewModel_NoData_Add_Address" = "اضافة العنوان الجديدة";
+"AddressListViewModel_NoData_Title" = "تفضل اضف العنوان الواحد";
+"ProvinceViewModel_NoSelect_Tip" = "يرجى اعادة الاختيار مرة أخرى";
+
+/*ModifyAddressViewController*/
+"Modify_Address_VC_Title" = "العنوان";
+"ModifyAddress_FristName_Placeholder" = "الاسم الأول";
+"ModifyAddress_LastName_Placeholder" = "اسم العائلة";
+"ModifyAddress_EmailAddress_Placeholder" = "عنوان البريد";
+"ModifyAddress_PhoneNum_Placeholder" = "الهاتف";
+"ModifyAddress_City_Placeholder" = "مدينة";
+"ModifyAddress_Province_Placeholder" = "المحافظة";
+"ModifyAddress_ZipCode_Placeholder" = "الرمز البريدي";
+"ModifyAddress_Country_Placeholder" = "دولة";
+"ModifyAddress_State_Placeholder" = "مقاطعة/دولة";
+"ModifyAddress_Address1_Placeholder" = "عنوان الشارع 1";
+"ModifyAddress_Address2_Placeholder" = "عنوان الشارع 2";
+"ModifyAddress_Supplier_Placeholder" = ". تحديد";
+"ModifyAddress_Set_Default" = "تعيين كعنوان الافتراضي";
+"ModifyAddress_Landmark" = "أقرب معالم";
+"ModifyAddress_Landmark_Tips" = "أقرب معالم رئيسية : مثلا اسم المبني ، مركز التسوق، المكتبة إلخ (اختياري";
+"ModifyAddress_Alternate_phone" = "البديل";
+"ModifyAddress_Continue" = "مواصلة";
+"ModifyAddress_Least_Digits" = "يجب أن تحتوي رقم الهاتف %@ أرقام علي الأقل";
+"ModifyAddress_include_Digits" = "يجب أن يحتوي رقم الهاتف %@ أرقام فقط";
+"ModifyAddress_Extra_Tips" = "يمكنك أن تحصل علي 10 نقطة اذا تكتب هذه الأرقام";
+
+"ModifyAddress_FirstName_TipLabel" = "يرجي إدخال الاسم الأول";
+"ModifyAddress_LastName_TipLabel" = "يرجي إدخال اسم العائلة";
+"ModifyAddress_Email_TipLabel" = "يرجي ادخال عنوان بريد الكتروني صحيح.";
+"ModifyAddress_Phone_TipLabel" = "يرجى إدخال رقم الهاتف";
+"ModifyAddress_Recipient_TipLabel" = "يرجى اختيار البلد المرسل";
+"ModifyAddress_City_TipLabel" = "يرجي إدخال مدينة المرسل إليه";
+"ModifyAddress_City_AllNum_TipLabel" = "الرجاء إدخال اسم مدينة صالح";
+"ModifyAddress_Address1_TipLabel" = "يرجي إدخال عنوان لالسطر الأول ";
+"ModifyAddress_Address2_TipLabel" = "يرجي إدخال عنوان لالسطر الأول ";
+"ModifyAddress_ZipCode_TipLabel" = "يرخي إدخال الرمز البريدي";
+"ModifyAddress_Country_TipLabel" = "يرجي إدخال بلد المرسل";
+"ModifyAddress_Supplier_TipLabel" = ".الرجاء تحديد رقم الناقل";
+"ModifyAddress_State_TipLabel" = "يرجي إدخال الدولة / مقاطعة المرسل ";
+"ModifyAddress_Shipping_TipLabel" = "يجب أن يكون عنوان الشحن لا يقل عن %@ أحرف";
+"ModifyAddress_MoreThan_TipLabel" = "%@ يرجي ادخال الحرف ما لا يزيد";
+"ModifyAddress_Maxmum_TipLabel" = " يمكنك أن يكتب بحد أقصى %@ حرفا";
+"ModifyAddress_Minimum_TipLabel" = "يجب أن يحتوي على الحرف ما لا يقل عن %@ حرفا";
+"ModifyAddressViewController_cardPlaceLabel" = "رقم الهوية الوطنية";
+"ModifyAddressViewController_cardField" = "أدخل رقم بطاقتك الشخصية للتفتيش الجمركي عشوائي";
+"ModifyAddressViewController_cardTipLabel1" = "يرجى تقديم رقم المعرف الخاص بك في حالة التفتيش الجمركي عشوائية.";
+"ModifyAddressViewController_cardTipLabe2" = "رقم المعرف الخاص بك يجب أن يكون عدد 10-الرقمية";
+"ModifyAddressViewController_phone_message" = "يرجي أن تختار دولتك أولا";
+
+"ModifyAddress_Success_Show_Message" = "!تم تحديث معلومات عنوانك بنجاح! شكرا ";
+
+/*My Password*/
+"ChangePassword_VC_Title" = "كلمة المرور";
+"ChangePassword_VC_OrignPassword" = "كلمة المرور الأصلية";
+"ChangePassword_VC_NewPassword" = "كلمة المرور الجديدة";
+"ChangePassword_VC_ConfirmPassword" = "يؤكد كلمة المرور الجديدة";
+"ChangePassword_VC_ResetPassword" ="إعادة تعيين كلمة المرور";
+"ChangePassword_VC_NotMatch_Message" = "لا تتطابق كلمات المرور";
+"ChangePassword_VC_Confirm_Message" = "يرجي تأكيد كلمة المرور";
+"ChangePassword_VC_Provide_Message" = "يرجى تقديم كلمة المرور";
+"ChangePassword_VC_Least_Message" = "يرجي إدخال 5 أحرف علي الأقل";
+"ChangePassword_VC_Most_Message" = "يرجى إدخال 50 أحرف علي الأكثر.";
+"ChangePassword_VC_Request_Failure_Message" = " ! فشلت العملية، يرجى المحاولة مرة أخرى";
+
+/*Change Password Success*/
+"ChangePassword_Success_Customer" = "عزيزنا الزبون";
+"ChangePassword_Success_NewPassword" = "تنشيط كلمة المرور الجديد";
+"ChangePassword_Success_SigninLater" = "تسجيل الدخول لاحقا";
+"ChangePassword_Success_SignInNow" = "تسجيل الدخول الآن";
+
+/*My Currency*/
+"Currency_VC_Title" = "دقة";
+
+/*My Setting*/
+"Setting_VC_Title" = "الاعداد";
+"Setting_Cell_RateUs" = "قيمنا";
+"Setting_Cell_ClearCache" = "مسح ذاكرة التخزين المؤقت ";
+"Setting_Cell_Version" = "الإصدار";
+"Setting_Cell_Languege" = "لغة";
+
+/* languge setting */
+"Languge_Setting_English" = "الإنجليزية";
+"Languge_Setting_Arabic"  = "العربية";
+"Languge_Setting_Spanish" = "الأسبانية";
+"Languge_Setting_French"  = "الفرنسية";
+
+"SettingViewModel_Cache_Alert_Message" = "تم مسح ذاكرة التخزين المؤقت التطبيق";
+"SettingViewModel_Cache_Alert_OK" = "حسنا";
+"SettingViewModel_Version_Alert_Title" = "الإصدار";
+//"SettingViewModel_Version_Alert_Message" = "النسخة الجديدة (@%) إصدار التحديث الآن";
+"SettingViewModel_Version_Alert_Message" = "زافول حصلت على نسخة جديدة. تحديث الآن";
+//"SettingViewModel_Version_Alert_NotNow" = "لا";
+"SettingViewModel_Version_Alert_NotNow" = "لا";
+//"SettingViewModel_Version_Alert_Update" = "تحديث";
+"SettingViewModel_Version_Alert_Update" = "نعم";
+"SettingViewModel_Version_Latest_Alert_Message" = "كان الإصدار الحالي هو الأحدث.";
+"SettingViewModel_Version_Latest_Alert_OK" = "حسنا";
+
+/*My Help*/
+"Help_VC_Title" = "مساعدة";
+
+/*Profile*/
+"Profile_VC_Title" = "مظهر جانبي";
+"Profile_FirstName_Placeholder" = "الاسم الأول";
+"Profile_LastName_Placeholder" = "اسم العائلة";
+"Profile_NickName_Placeholder" = "كنية";
+"Profile_Male" = " ذكر ";
+"Profile_Female" = " أنثي ";
+"Profile_Privacy" = " الخصوصية ";
+"Profile_Birthday_Placeholder" = "عيد ميلاد";
+"Profile_Phone_Placeholder" = "الهاتف";
+"Profile_EmailAddress_Placeholder" = "عنوان البريد";
+"Profile_Save_Button" = "حفظ";
+
+"Profile_Enter_FirstName_Message" = "يرجي إدخال الاسم الأول ";
+"Profile_Least_FirstName_Message" = "يجب أن يكون الاسم الأول لديك على الأقل 2 حرفا";
+"Profile_Maxium_FirstName_Message" = "يجب أن يكون الاسم الأول لديك أقل من 32 أحرف";
+"Profile_Enter_LastName_Message" = "يرجى إدخال اسم الثانية";
+"Profile_Least_LastName_Message" = "يجب أن يكون الاسم االثانية لديك على الأقل 2 حرفا";
+"Profile_Maxium_LastName_Message" = "يجب أن يكون الاسم الثانية لديك أقل من 32 أحرف";
+"Profile_Enter_Phone_Message" = "يرجى إدخال رقم الهاتف";
+"Profile_Least_Phone_Message" = "يجب أن يكون رقم هاتفك على الأقل 6 أحرف";
+"Profile_Maxium_Phone_Message" = "يجب أن يكون ارقم هاتفك أقل من 20 أحرف";
+"Profile_Enter_NickName_Message" = "يرجي إدخال الكنية";
+"Profile_Least_NickName_Message" = "ينبغي أن يكون كنيتك لا يقل 2 حرفا";
+"Profile_Maxium_NickName_Message" = "يجب اللقب أقل من 35 أحرف";
+"Profile_Personal_Success_Message" = "لقد تم تعديل بياناتك الشخصية بنجاح!";
+
+
+/*InputTextView*/
+"InputTextView_Send" = "الارسال";
+"InputTextView_message" = ".يجب أن يكون أقل من 300 حرفا";
+
+
+/*Community*/
+"Community_Follow" = "الاتبع";
+"Community_TOP" = "أعلي";
+"Community_Big_Views" = "التعليقات";
+"Community_Little_Views" = "التعليقات";
+
+"Community_ShareTitle" = "أحدث عروض الأزياء";
+"Community_ShareContent" = " هل ترغب في ذلك؟ ,Zaful يكون أسلوبي العرض على  ";
+
+/*CommunityViewController*/
+"Community_Tab_Title_Explore" = "اكتشاف";
+"Community_Tab_Title_Faves" = "المفضلات";
+"Community_Tab_Title_Outfits" = "أطقم";
+"Community_HeaderView_HotVideo" ="الفيديو الشعبي";
+"Community_HeaderView_HotTopic" = "الموضوع الشعبي";
+"Community_HeaderView_RecentPosts" = "البريد الأخيرة";
+"Community_HeaderView_More" = "الأكثر";
+
+/*VideoListViewController*/
+"VideoList_VC_Title" = "Z-Live";
+"Video_VC_TextView_Placeholder" = "ما رأيك؟";
+"Video_VC_CannotPost_Message" = "لا يمكنك أن تعلق مقل نفسك";
+
+"VideoViewViewModel_NoData_Title" = "ستظهر هنا التعليق الشعبي بك.";
+"VideoViewViewModel_Refresh" = "تحديث";
+
+/*VideoHeaderView*/
+"VideoView_HeaderView_Title" = "التعليقات";
+
+//List Of Topic
+"TopicList_VC_Title" = "قائمات الموضوع";
+"TopicHead_Cell_JoinedIn" = "الانضمام";
+"TopicHead_Cell_ViewAll" = "مشهد الجميع";
+
+/*alertview*/
+"TopicLabelDeleteAlertView" = "هل أنت بالتأكيد؟";
+
+//Topic Detail
+"Topic_VC_Title" = "التفاصيل الموضعية";
+"TopicDetailView_Ranking" = "الدرجة";
+"TopicDetailView_Latest" = "أخير";
+"TopicDetailView_Reviews" = "التعليقات";
+"TopicDetailView_ViewAll" = "مشهد الجميع";
+"TopicDetailView_joinIn" = "الانضمام إلى";
+
+/*CommunityDetailViewController*/
+"CommunityDetail_VC_TextView_Placeholder" = "ما رأيك؟";
+"CommunityDetail_VC_CannotPost_Message" = "لا يمكنك أن تعلق مقل نفسك";
+
+/*CommunityDetailHeaderCell*/
+"CommunityDetailHeaderCell_Likes" = "محبوب";
+
+/*FollowViewController*/
+"Follow_VC_Title_LikedBy" = "يحب ل";
+"Follow_VC_Title_Following" = " يتبع الآن";
+"Follow_VC_Title_Followers" = "متابعون";
+
+/*FollowViewModel*/
+"FollowViewModel_NoData_GetStatus" = "اتبع الآخرين يمكن الحصول \ مضعه/ وضعها مؤخرا";
+"FollowViewModel_NoData_NotAny" = "لم تتبع أي حتي الآن";
+"FollowViewModel_NoData_AddPhotos" = "إضافة الصور للحصول على المتابعون";
+"FollowViewModel_NoData_NoFollowers" = "ليس المتابعون";
+
+/*PopularViewModel*/
+"PopularViewModel_NoData_Title" = "ستظهر هنا التعليق الشعبي بك.";
+"PopularViewModel_Refresh" = "تحديث";
+
+/*FavesCommendHeadView*/
+"FavesCommendHeadView_RecommendUp" = "التوصيات";
+
+/*FavesViewModel*/
+"FavesViewModel_NoData_Title" = "ستجد أصدقاء و ناس المدونون تبادل نصائح التسوق الخاصة بهم هنا،تتبعها الآن.";
+"FavesViewModel_NoData_AddMoreFriends" = "  إضافة المزيد من الأصدقاء    ";
+
+//Z-Me
+"MyStylePage_VC_Title" = "Z-Me";
+"MyStylePage_SubVC_Shows" = "عروض";
+"MyStylePage_SubVC_Likes" = "محبوب";
+"MyStylePage_SubVC_Outfits" = "أطقم";
+"MyStylePage_Unfollow_Tip" = "هل تؤكد من أن الغاء الاهتمام";
+"MyStylePage_Unfollow" = "الغاء";
+
+/*StyleSelectView*/
+"StyleSelectView_Shows" = "عروض";
+"StyleSelectView_Likes" = "محبوب";
+
+/*StyleHeaderView*/
+"StyleHeaderView_Followed" = " تم الإتبع";
+"StyleHeaderView_Following" = " يتبع الآن";
+"StyleHeaderView_Followers" = "متابعون";
+"StyleHeaderView_BeLiked" = "أن إعجابا";
+
+/*CommendUserCell*/
+"CommendUserCell_Posts" = "البريد";
+"CommendUserCell_BeLiked" = "أن إعجابا";
+
+/*ADD More Friend*/
+"AddMoreFriends_VC_Title" = "إضافة المزيد من الأصدقاء";
+"CommunitySearchNoResultTips" = "آسف,\n لم تتطابق أي نتائج مع طلب البحث";
+
+/*FriendsResultCell*/
+"FriendsResultCell_Posts" = "البريد";
+"FriendsResultCell_BeLiked" = "أن إعجابا";
+
+/*ContactsViewController*/
+"AddMoreFriends_Contacts" = "شخص الاتصال";
+"Contacts_VC_Message" = ".zaful.com ينتظر الكوبونات الكبيرة والهبات. يكونك أن تري تجارب التسوق والأفكار الأزياء على !Z-Me يشترك في المجتمع Z-Me";
+"Contacts_VC_Send" = "ارسال";
+
+/*FriendsCommendHeadView*/
+"AddMoreFriends_Contacts" = "شخص الاتصال";
+"AddMoreFriends_FaceBook" = "أصدقاء الفيسبوك";
+"AddMoreFriends_Suggested" = "المستخدمون المقترحون";
+
+//"AddMoreFriends_Posts" = "البريد";
+//"AddMoreFriends_Likes" = "الحب";
+
+//post topic
+"Post_VC_Post" = "بريد";
+"Post_VC_Post_TextView_Placeholder" = "(قل شيئا عن هذه الصورة (0/500";
+"Post_VC_Post_AddTopics" = "إضافة مواضيع";
+"Post_VC_Post_AddItems" = "إضافة عناصر";
+"Post_VC_Post_Cancel_Message" = "إلغاء رأيك؟";
+"Post_VC_Post_Cancel_No" = "لا";
+"Post_VC_Post_Cancel_Yes" = "نعم";
+"Post_VC_Post_NoPhotos_Tip" = "لا تنس أن تضيف بعض الصور";
+"Post_VC_Post_MaxTag_Tip" = " يمكنك أن تختيار 6 علامات فقط";
+"Post_VC_Post_TextView_Tip" = "يجب أن يكون أقل من 500 أحرف";
+"Post_VC_Post_Alert_OK" = "حسنا";
+
+"Post_VC_Post_Success_Tips" = "تم النشر بنجاح";
+"Post_VC_Post_Success_Points_Tips" = "Zنقطة 30+";
+
+/*GoodsPageViewController*/
+"GoodsPage_VC_WishList" = "إضافة عناصر";
+"GoodsPage_VC_Bag" = "حقيبة التسوق";
+"GoodsPage_VC_Order" = "الطلب";
+"GoodsPage_VC_Recent" = "الأخيرة";
+"GoodsPage_VC_Done" = "تمام";
+
+"Post_ViewModel_Alert_NoItem_Tip" = "لقد إضافة هذا البند بفائزة";
+"Post_ViewModel_Alert_MaxItem_Tip" = "يمكنك أن تختيار 6 بنود فقط";
+
+/*RecentViewModel*/
+"RecentViewModel_NoData_Title" = "عفوا,لا نتمكن أن نبحث أي شيء في سجلاتك الأخير";
+
+/*ContactsViewModel*/
+"ContactsViewModel_AuthorizationFailure_Title" = "لا يمكن الوصول إلى الاتصال";
+"ContactsViewModel_AuthorizationFailure_Message" = "يرجى السماح ل زافول بالوصول إلى جهة الاتصال من خلال الانتقال إلى الإعدادات> الخصوصية> جهات الاتصال";
+"ContactsViewModel_AuthorizationFailure__OK" = "حسنا";
+"ContactsViewModel_AuthorizationFailure__GoToSetting" = "اذهب إلى الإعدادات";
+
+/*SeeAllCell*/
+"SeeAllCell_SeeAll" = "ينظر الجميع";
+
+/*LikesViewModel*/
+"LikesViewModel_NoData_NotLikes" = "لا يوجد البضاعة المفضلة الي اللآن";
+
+/*ShowsViewModel*/
+"ShowsViewModel_NoData_NotShowed" = "لم يعرض حتي الآن";
+"AccountOutfits_NoData_NotOutfits" = "لم تنشر أي ملابس حتى الآن";
+"AccountOtherOutfits_NoData_NotOutfits" = "لا توجد أي مجموعة  من الملابس حتى الآن";
+/*TopicViewModel*/
+"TopicViewModel_NoData_FirstJoined" = "يكون أول من انضم فيها";
+
+/*WishlistViewModel*/
+"WishlistViewModel_NoData_CannotFind" = "عفوا، لم نتمكن من العثور على أي شيء في سلة المفضلة";
+
+/*MessagesViewModel*/
+"MessagesViewModel_title" = "خبر";
+"MessagesViewModel_NoData_Message" = " عفوا،لا يوجد لديك رسالة  حتي الآن";
+"MessagesViewModel_Data_Detete" = "تم حذف هذا المنصب";
+
+"FriendsCommendViewModel_Share_Content" = "عجلوا، أحتاج إلى الأزياء  للانضمام معي";
+"ZFShare_Community_post" = "التحقق من ذلك، وأنا نشرت شيء ممتع";
+"ZFShare_Community_topic" = "المشاركة  الانضمام إلى هذا الموضوع معي، دعونا";
+"ZFShare_Community_outfits" = "أهلا ، أبدعت واحدة بدلة في زافول";
+
+/*FriendsResultViewModel*/
+"FriendsResultViewModel_NoData_Message" = "عفوا, ليس النتائج التي مطابقة لطلب بحثك";
+
+
+"TimeLapse_Later" = "لاحق";
+"TimeLapse_Ago" = "الماض";
+"TimeLapse_Secs" = "ثوان";
+"TimeLapse_Sec" = "ثانية";
+"TimeLapse_Mins" = "دقائق";
+"TimeLapse_Min" = "دقيقة";
+"TimeLapse_Hours" = "ساعات";
+"TimeLapse_Hour" = "ساعة";
+"TimeLapse_Days" = "أيام";
+"TimeLapse_Day" = "يوم";
+"TimeLapse_Months" = "أشهر";
+"TimeLapse_Month" = "شهر";
+"TimeLapse_Years" = "سنوات";
+"TimeLapse_Year" = "سنة";
+
+/*DZNEmptyDataSet*/
+"EmptyCustomViewManager_titleLabel" = "فشل التحميل, يرجي المحاولة مرة أخري لاحقا";
+"EmptyCustomViewManager_refreshButton" = "انتعش";
+
+
+/*YYPhotoBrowseView*/
+"Save_Picture" = "حفظ الصورة";
+
+"ZFTracking_information_title" = "معلومات التتع الطلب";
+"ZFTracking_number" = "أرقام التتبع";
+"ZFTrackingNoData" = "ليس  تفاصيل التتبع حتي الآن";
+"ZFPackage" = "ld%الحزمة";
+
+"ZFOrderList_Learn_more" = "عروض المزيد";
+"ZFOrderInfo_Or"         = "أو";
+
+"ZFCheckout_mybag" = "حقيبتي";
+
+/* payMethod */
+"ZFPaymentTitle" = "اختر طريقة الدفع";
+"ZFPaymentTips" = "بعض المنتجات في طلبك تدعم الدفع عند  الاستلام ، يرجي اختيار وسيلة الدفع أولاً.";
+"ZFPaymentCod" = "الدفع عند  الاستلام";
+"ZFPaymentCodTip" = "بعض المنتجات في طلبك تدعم الدفع عند  الاستلام.سوف تعود المنتجات الأخرى إلى حقيبة التسوق.";
+"ZFPaymentOnline" = "الدفع عبر الإنترنت ";
+"ZFPaymentOnlineTip" = "جميع المنتجات تدعم الدفع عبر الإنترنت.";
+"ZFPaymentCombine" = "الدفع المجمع";
+"ZFPaymentCombineTip" = "الدفع نقداً عند الاستلام + الدفع عبر الإنترنت";
+"ZFPayStateSuccess" = "تم بنجاح";
+"ZFPayStateSMSVerification" = "التأكيد عبر الرسائل النصية";
+"ZFPayStateSMSRequired" = "يلزم التأكيد عبر الرسائل النصية";
+"ZFPayStateWaiting" = "في انتظار الدفع";
+"ZFPayStateCodTip" = "العدد المتوفر من المنتج محدود للغاية، يرجى اجراء الدفع الأن. تتطلب هذة العملية اجراء تأكيد عبر الرسائل النصية";
+"ZFPayStateOnlineTip" = "بعض المنتجات فقط تدعم الدفع عبر الإنترنت، يرجى اجراء الدفع  في القريب العاجل.";
+"ZFPayStateAuthorize" = "السماح بسداد %@ دولار";
+"ZFOrderEvent" = "خصم الترويج";
+"ZFPayStateOnlineFailed" = "فشلت الدفع علي الانترنت";
+"ZFOrderUsedCoupon" = "هذا الكوبون قد استخدم";
+
+"OrderDetail_Coupon_Header" = "كوبون غير متاح";
+"MyCoupon_Coupon_Warning_Title"   = "رمز الكوبون ：";
+"MyCoupon_Coupon_Warning_Content"   = "%@ وفر";
+"MyCoupon_Coupon_No_Available" = "ليس كوبون  متاح";
+"MyCoupon_Coupon_Available" = "كوبون متاح %ld";
+"My_Coupon_UserIt"  = "استخدامه";
+"OrderDetail_CouponCode_InputplaceholderText" = "اختيار الكوبون أو  كتابة الرمز";
+
+"mine_coupon_expired_imagename" = "mine_coupon_expired_ar";
+"mine_coupon_used_imagename" = "mine_coupon_used_ar";
+"goods_detail_outofstock_imageName" = "OutofStock_ar";
+"goods_detail_soldout_imageName" = "soldout_ar";
+

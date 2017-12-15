@@ -1,0 +1,13 @@
+
+"enabled"             =   "مكن";
+
+"disabled"            =   "حرم";
+
+"already disabled"    =   "قد حرم";
+
+"already enabled"     =   "قد مكن";
+
+"You must set UIWindow.rootViewController in your AppDelegate to work with IQKeyboardManager"  = ".IQKeyboardManager للعمل مع AppDelegate في UIWindow.rootViewController يجب عليك أن تعين";
+
+"Previous"                              =   "سابق";
+"Next"                                  =   "التالى";

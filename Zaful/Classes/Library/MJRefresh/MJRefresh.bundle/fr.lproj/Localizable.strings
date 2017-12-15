@@ -1,0 +1,16 @@
+"MJRefreshHeaderIdleText" = "Descendez pour vous rafraichir";
+"MJRefreshHeaderPullingText" = "Relâcher pour rafraîchir";
+"MJRefreshHeaderRefreshingText" = "Chargement...";
+
+"MJRefreshAutoFooterIdleText" = "";//"MJRefreshAutoFooterIdleText" = "Appuyez ou tirez pour charger plus";
+"MJRefreshAutoFooterRefreshingText" = "Chargement...";
+"MJRefreshAutoFooterNoMoreDataText" = "Plus de données";
+
+"MJRefreshBackFooterIdleText" = "Descendez pour vous rafraichir";
+"MJRefreshBackFooterPullingText" = "Relâcher pour rafraîchir.";
+"MJRefreshBackFooterRefreshingText" = "Chargement...";
+"MJRefreshBackFooterNoMoreDataText" = "Plus de données";
+
+"MJRefreshHeaderLastTimeText" = "Dernière mise à jour: ";
+"MJRefreshHeaderDateTodayText" = "Aujourd'hui";
+"MJRefreshHeaderNoneLastDateText" = "Aucun enregistrement";

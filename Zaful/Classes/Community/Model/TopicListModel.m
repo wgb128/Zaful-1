@@ -1,0 +1,61 @@
+//
+//  TopicListModel.m
+//  Zaful
+//
+//  Created by DBP on 16/11/28.
+//  Copyright © 2016年 Y001. All rights reserved.
+//
+
+#import "TopicListModel.h"
+
+@implementation TopicListModel
+
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{
+             @"topicId"             :   @"id",
+             @"siteVersion"         :   @"site_version",
+             @"title"               :   @"title",
+             @"content"             :   @"content",
+             @"label"               :   @"label",
+             @"labelStatus"         :   @"label_status",
+             @"iosIndexpic"         :   @"ios_indexpic",
+             @"iosListpic"          :   @"ios_listpic",
+             @"iosDetailpic"        :   @"ios_detailpic",
+             @"addTime"             :   @"add_time",
+             @"updateTime"          :   @"update_time",
+             @"number"              :   @"number",
+             @"virtualNumber"       :   @"virtual_number",
+             @"readNumber"          :   @"read_number",
+             @"orderby"             :   @"orderby",
+             @"isTopic"             :   @"is_topic",
+             @"status"              :   @"status",
+             @"joinNumber"          :   @"join_number"
+             };
+}
+
+// 如果实现了该方法，则处理过程中不会处理该列表外的属性。
++ (NSArray *)modelPropertyWhitelist {
+    return @[
+             @"topicId" ,
+             @"siteVersion",
+             @"title",
+             @"content",
+             @"label",
+             @"labelStatus",
+             @"iosIndexpic",
+             @"iosListpic",
+             @"iosDetailpic",
+             @"addTime",
+             @"updateTime",
+             @"number",
+             @"virtualNumber",
+             @"readNumber",
+             @"orderby",
+             @"isTopic",
+             @"status",
+             @"joinNumber"
+
+             ];
+}
+
+@end

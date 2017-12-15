@@ -1,0 +1,810 @@
+/*
+ Localizable.strings
+ Zaful
+ 
+ Created by zhaowei on 2017/2/13.
+ Copyright © 2017年 Y001. All rights reserved.
+ */
+
+/*GLOBAL*/
+"OK" = "OK";
+"Cancel" = "Annuler";
+"Failed" = "Échoué";
+"SKU" = "SKU";
+"Color" = "Couleur";
+"Size" = "Taille";
+"Qity" = "Qualité";
+"Total" = "Total";
+"LESS" = "MOINS";
+
+"Global_Network_Not_Available" = "Le réseau n'est pas disponible!";
+"Global_Network_Server_Error" = "Erreur d'exception du serveur";
+"Global_Network_Login_First" = "s'il vous plait Connectez-vous d'abord";
+"Global_Network_No_MoreData" = "Plus de données";
+"Global_Network_Illegal_Request" = "Demande illégale";
+
+"LaunchStatusViewController_Tip" = "Il'n'y a pas de connexion Internet.\nVeuillez vérifier votre réseau.";
+"LaunchStatusViewController_Retry" = "Réessayez";
+
+/*ZFBaseViewController*/
+"Base_VC_ShowAgain_TitleLabel" = "NOUVEAU DEMANDE";
+"Base_VC_Mix_Characters_Tip" = "Votre pseudonyme doit avoir au moins 2 caractères";
+"Base_VC_Max_Characters_Tip" = "Le maximum de surnom doit être de 35 caractères";
+
+"Base_VC_Enter_NickName_Message" = "Entrez le surnom";
+
+//没有数据的提醒词
+"Global_VC_NO_DATA" = "Chargement échoué, essayez à nouveau plus tard";
+//空白页的title
+"Global_EMPTY_TITLE" = "Il n'y a pas de connexion Internet";
+//没有网络的提醒词
+"Global_NO_NET_404" = "Vérifiez votre réseau";
+
+/*ZFShareViewController*/
+"Share_VC_Cancel" = "Annuler";
+"Share_VC_Shared_Success" = "Partagé avec succès";
+"Share_VC_Unkown_Error" = "Erreur inconnue";
+"Share_VC_No_Twitter_Accounts" = "Pas de compte Twitter";
+"Share_VC_Opration_Twitter_Tip" = "Il n'y a pas de compte Twitter configuré. Vous pouvez ajouter ou créer un compte Twitter dans Paramètres";
+"Share_VC_I_Know" = "Je sais";
+"Share_VC_Copied_Success" = "Copié avec succès";
+"Share_VC_Less_Three_Tip" = "Jolie petite chose de Zaful! Total <3! Vérifiez sur Zaful.";
+"Share_VC_Shared_Facebook_Success" = "Partagé avec succès sur Facebook";
+"Share_VC_Shared_Messenger_Success" = "Partagé avec succès sur Messenger";
+"Share_VC_Close" = "Fermer";
+"Share_VC_Facebook" = "Facebook";
+"Share_VC_Pinterest" = "Pinterest";
+"Share_VC_CopyLink" = "Copier le lien";
+"Share_VC_Twitter" = "Twitter";
+
+"Share_VC_CheckOut_Tip" = "Zaful, vraiment <3 ceci! Beaucoup de boutiques sur Zaful. Vérifiez-le!";
+
+/*AppDelegate*/
+"AppDelegate_Open" = "Ouvrir";
+
+/*OrderListPalView*/
+"ZFPaymentView_Alert_Message" = "Le paiement n'est pas terminé, êtes-vous sûr de vouloir revenir en arrière?";
+"ZFPaymentView_Alert_No" = "NON";
+"ZFPaymentView_Alert_Yes" = "OUI";
+"ZFPaymentView_Close_Title" = "Arrière";
+
+/*OrderFinishViewController*/
+"OrderFinish_VC_TipLabel_One" = "Nous apprécions vos achats!";
+"OrderFinish_VC_TipLabel_Two" = "Votre commande a été soumise avec succès.";
+"OrderFinish_VC_TipLabel_Three" = "Rappelez-vous votre numéro de commande:";
+"OrderFinish_VC_Account_Button" = "Mon ACCOUNT";
+"OrderFinish_VC_Home_Button" = "RETOURNER À L'ACCUEIL";
+
+/*OrderFailureViewController*/
+"OrderFailure_VC_Tip" = "Échec de paiement!";
+"OrderFailure_VC_Account_Button" = "Vérifiez ma commande";
+
+/*Sign*/
+"SignIn_Button" = " SE CONNECTER";
+"SignIn_Button_left" = "Se Connecter";
+"SignIn_Email" = "Email";
+"SignIn_Password" = "Mot de passe";
+"SignIn_ForgotPassword" = "Mot de passe oublié?";
+"StartLoad_Skip_Tips" = "SKIP";
+"login_back" = "Retour";
+
+/*Register*/
+"Register_Button" = "S'INSCRIRE";
+"Register_Button_left" = "S'inscrire";
+"Register_Email" = "Adresse e-mail";
+"Register_Password" = "Mot de passe";
+"Register_subscribe" = " S'abonner à notre newletter";
+"Register_FB_Connect" = "   FaceBook";
+"Register_GG_Connect" = "   Google";
+"Register_policy" = "J'ai lu et accepté la politique de confidentialité";
+"Register_agree" = " J'accepte zaful.com";
+"Register_TermsOfUser" = "Conditions d'utilisation";
+"Register_zaful.com" = "Pour terminer l'enregistrement, vous devez accepter les termes et conditions du site Zaful";
+
+
+/*Login*/
+"Login_Confirm_Tip_Email" = "Veuillez entrer une e-mail adresse valide";
+"Login_Confirm_Tip_Password" = "Votre mot de passe doit être entre 6 et 20 caractères";
+"Login_Terms_Web_Title" = "CONDITIONS D'UTILISATION";
+
+/*Forgot Password*/
+"LoginForgotView_Title" = "MOT DE PASSE OUBLIÉ";
+"LoginForgotView_EmailView_Descripe" = "Confirmez votre identité pour réinitialiser le mot de passe";
+"LoginForgotView_SuccessView_Descripe" = "Nous avons envoyé un courriel à";
+"LoginForgotView_SuccessView_Descripe2" = "Avec les instructions pour réinitialiser votre mot de passe.";
+"LoginForgotView_Your_Email" = "Entrez votre adresse e-mail";
+"LoginForgotView_Valid_Email" = "S'il vous plaît, mettez une adresse email valide.";
+"LoginForgotView_OK" = "OK";
+"LoginForgotView_Cancel" = "ANNULER";
+
+/*Tabbar*/
+"Tabbar_Home" = "Accueil";
+"Tabbar_Categories" = "Catégories";
+"Tabbar_Z-Me" = "Z-Me";
+"Tabbar_Wishlist" = "Favoris";
+"Tabbar_Account" = "Mon Compte";
+
+/*Home*/
+"Home_SectionHeader_Title" = "NOS PRODUITS POPULAIRES";
+"GoodsSortViewController_Type_Recommend" = "Recommander";
+"GoodsSortViewController_Type_New" = "Nouvelles arrivées";
+"GoodsSortViewController_Type_LowToHigh" = "Prix bas à élevé";
+"GoodsSortViewController_Type_HighToLow" = "Prix élevé à bas";
+
+/*Category*/
+"Category_VC_Title" = "Catégorie";
+"Category_Item_Segmented_Category" = "Catégorie";
+"Category_Item_Segmented_Sort" = "Trier";
+"Category_Item_Segmented_Refine" = "Affiner";
+"Category_Child_VC_Title" = "Catégories";
+"Category_Done" = "TERMINÉ";
+"Category_Price_Range" = "Prix";
+"Category_APPLY" = "APPLIQUER";
+
+"GoodsSort_VC_Title" = "Trier";
+"GoodsRefine_VC_Title" = "Affiner";
+"GoodsRefine_VC_Clear" = "RÉINITIALISER";
+"GoodsRefine_VC_All" = "Tout";
+"CategoryNoDate" = "Désolé, nous n'avons pas trouvé de résultats dans la catégorie %@";
+
+/*Search*/
+"Search_PlaceHolder_Search" = "Chercher";
+"Search_ResultViewModel_Tip" = "Votre recherche %@ ne correspond à aucun produit, essayez un autre mot";
+"Search_ResultHeadView_Sort" = "Trier";
+
+/*Detail*/
+"Detail_Product_Shipping_Tips" = "Conseils d'Expédition";
+"Detail_Product_Description" = "Description du Produit";
+"Detail_Product_SizeGuides" = "Guide des Tailles";
+"Detail_Product_ModelStats" = "Taille du Mannequin";
+"Detail_Product_Reviews" = "Avis";
+"Detail_Product_Recommend" = "NOUS RECOMMANDONS";
+"Detail_Product_AddToBag" = "AJOUTER AU PANIER";
+"Detail_Product_ProcessingTime" = "Délai de traitement: expédier dans %@ jours ouvrables.";
+"Detail_Product_OutOfStock" = "En rupture de stock";
+"Detail_Product_SoldOut" = "Épuisé";
+"Detail_Product_HeaderView_Promote_Clearance" = "DÉGAGEMENT";
+"Detail_Product_HeaderView_Promote_Sale" = "PROMO";
+"Detail_Product_HeaderView_MobileOnly" = "Seulement mobile";
+"Detail_Product_HeaderView_EXTRA" = "Économiser $%@ supplémentaire sur l'app";
+"Detail_Product_Refresh_Footer" = "Plus de commentaires. Donnez-lui un avis et obtenez des points Z!";
+"Detail_Product_GoodsReviewCell_TipLabel" = "Pas d'avis. \n Soyez le premier critique et obtenez 40 points Z!";
+"Detail_Product_GoodsReviewCell_ViewAll" = "Voir tout";
+
+/*GoodsReviewsViewController*/
+"GoodsReviews_VC_Title" = "Commentaires";
+"GoodsReviews_HeaderView_Reviews" = "Commentaires";
+
+/*Bag*/
+"Bag_VC_Title" = "Sac";
+"Bag_RecentHistory" = "Mon historique récent";
+"Bag_Total" = "Total";
+"Bag_Discount_Tips" = "Réduction :";
+"Bag_CheckOut" = "PASSER À LA CAISSE";
+"Bag_Color" = "Couleur";
+"Bag_Size" = "Taille";
+"CartViewModel_Alert_Message" = "Sélectionnez au moins un élément.";
+"CartViewModel_NoData_TitleLabel" = "Votre panier est vide!";
+"CartViewModel_NoData_TitleButton" = "CONTINUER VOS ACHATS";
+"CartHeaderView_FREELABELTEXT" = "LIVRAISON GRATUITE";
+"CartFooterView_CONTENTSTRING" = "30 jours de remboursement";
+"CartUnavailableProductTips" = "Articles Non Disponibles";
+"CartUnavailableGoodsTips" = "Indisponible";
+"CartClearAllButtonTips" = "Tout Supprimer";
+"CartUnavailableViewMoreTips" = "Voir +";
+"CartUnavailableFoldUpTips" = "Replier";
+"CartUnavailableGoodsTypeSoldOut" = "Épuisé";
+"CartUnavailableGoodsTypeOutOfStore" = "Rupture de Stock";
+"CartUnavailableClearAllTips" = "Cet article a bien été ajouté à vos favoris !";
+"CartAddToFavoritesSuccessfully" = "Cet article a bien été ajouté à vos favoris !";
+"CartCancelFavoritesSuccessfully" = "Cet article a été supprimé de vos préférés !";
+"CartRemoveProductTips" = "Voulez-vous vraiment supprimer cet article sélectionné ?";
+"CartRemoveProductNo" = "Non";
+"CartRemoveProductYes" = "Oui";
+"CartSelectAllTips" = "Tout Sélectionner";
+"CartSelectAllItemsTips" = "Sélectionner tous les articles";
+"CartSelectItemsTips" = "Sélectionner (%lu)";
+/*CartOrderInfo Address*/
+"CartOrderInfo_Address_List_Close" = "Fermer";
+
+/*CartInfoGoodsViewController*/
+"CartInfo_Goods_VC_Title" = "Liste de produits";
+
+/*OrderInfoViewModel*/
+"OrderInfoViewModel_manager_insurance" = "0.00";
+"OrderInfoViewModel_valid_coupon_tip" = "Entrez un code de coupon valide.";
+"OrderInfoViewModel_alertMsg_COD" = "L'ordre de remboursement doit être inférieur à %@~%@$";
+"OrderInfoViewModel_COD_cost" = "Coût de la COD";
+
+/*CartOrderInfo*/
+"CartOrderInfo_VC_Title" = "Informations sur la commande";
+"CartOrderInfo_RewardsCell_Instruction" = "Il y a %@ Points dans votre compte, vous pouvez utiliser %@ Points max pour cette commande (économise % @)";
+"CartOrderInfo_RewardsCell_RewardLabel" = "Points Z";
+"CartOrderInfo_RewardsCell_MaxPoint" = "Plus des point max!";
+"CartOrderInfo_RewardsCell_ThanZero" = "Le point doit être supérieur à 0!";
+
+"CartOrderInfo_Goods_Items" = "Articles";
+"CartOrderInfo_Goods_Item" = "Article";
+
+"CartOrderInfo_PayMethodCell_PayPalLabel" = "La manière la plus sûre et la plus facile de payer";
+"CartOrderInfo_PayMethodCell_WordPayLabel" = "Payer par carte de crédit directement";
+"CartOrderInfo_PromotionCodeCell_PromotionCodeLabel" = "Code promotionnel";
+"CartOrderInformationBottomView_PlaceOrderBtn" = "PASSER LA COMMANDE";
+
+"CartOrderInfoViewModel_PlaceOrder_NoShipping" = "Désolé, nous ne sommes pas expédiés dans le pays de destination que vous avez sélectionné.";
+"CartOrderInfoViewModel_PlaceOrder_NoPayment" = "Désolé, votre pays ne peut actuellement pas supporter la méthode de paiement que vous avez sélectionnée.";
+"CartOrderInfoModel_PaymentStatusDone_Alert_Message" = "Votre commande a été soumise avec succès!";
+"CartOrderInfoModel_PaymentStatusDone_Alert_Title" = "Paiement fini";
+"CartOrderInfoModel_PaymentStatusCancel_Alert_Message" = "Paiement annulé. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"CartOrderInfoModel_PaymentStatusCancel_Alert_Title" = "Paiement annulé";
+"CartOrderInfoModel_PaymentStatusFail_Alert_Message" = "Paiement échoué. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"CartOrderInfoModel_PaymentStatusFail_Alert_Title" = "Paiement échoué";
+
+/*CartOrderInfo Coupon*/
+"CartOrderInfo_CouponSelect_VC_Title" = "Mon coupon";
+"CartOrderInfo_CouponCode" = "Code promo";
+"CartOrderInfo_CouponSelect_PodeTextFiled_Placeholder" = "Vous pouvez entrer le code promotionnel!";
+"CartOrderInfo_CouponSelect_PlaceOrderBtn" = "PASSER LA COMMANDE";
+"CartOrderInfo_MyCouponPickerView_CodeTextField_Placeholder" = "Vous pouvez entrer le code promotionnel";
+"CartOrderInfo_MyCouponPickerView_APPLY" = "APPLIQUER";
+"CartOrderInfo_MyCouponPickerView_Component_NotToUse" = "JE NE VEUX PAS UTILISER";
+"CartOrderInfo_MyCouponPickerView_Title" = "Mon coupon";
+"CartOrderInfo_UnableCouponCell_Tip" = "Je ne veux pas utiliser";
+
+//CartOrderInfo TotalPrice Cell
+"CartOrderInfo_TotalPrice_Cell_Subtotal" = "Sous-total";
+"CartOrderInfo_TotalPrice_Cell_RewardsSaving" = "Z Points Enregistrement";
+"CartOrderInfo_TotalPrice_Cell_PromotionCodeSaving" = "Économie de code de promotion";
+"CartOrderInfo_TotalPrice_Cell_ShippingCost" = "Frais de port";
+"CartOrderInfo_TotalPrice_Cell_ShippingInsurance" = "L'assurance d'expédition";
+"CartOrderInfo_TotalPrice_Cell_GrandTotal" = "Somme finale";
+"CartOrderInfo_TotalPrice_Cell_TotalPayable" = "Montant total à payer";
+"CartOrderInfo_TotalPrice_Cell_Discount" = "Remise de Contre-Remboursement";
+"CartOrderInfo_TotalPrice_Cell_AirCargoInsurance" = "Assurance pour le transport aérien";
+"CartOrderInfo_TotalPrice_Cell_PayNow" = "Payez maintenant";
+
+//CartOrderInfo ShippingInsuranceCell Cell
+"CartOrderInfo_ShippingInsuranceCell_Cell_ShippingInsurance" = "L'assurance d'expédition";
+
+//CartOrderInfo ShippingMethodSubCell Cell
+"CartOrderInfo_ShippingMethodSubCell_Cell_OFF" = "OFF";
+
+/*VerificationView*/
+"VerificationView_titleLabel" = "Montant du paiement:%@";
+"VerificationView_alretLabel_error" = "Erreur de code de vérification";
+"VerificationView_alretLabel_empty" = "Code de vérification vide";
+"VerificationView_showButton_resent" = "Renvoyé après %@ sec";
+"VerificationView_showButton_titile" = "Envoyer un SMS";
+
+"VerificationView_detailLabel" = "Pour la sécurité des commandes, nous vous enverrons un message à votre adresse de livraison sur le numéro de téléphone, veuillez remplir le code de vérification ci-dessous";
+
+"VerificationView_codeField" = "Entrez le code de vérification correct.";
+"VerificationView_VERIFY" = "VÉRIFIER";
+
+/*Wishlist*/
+"Collection_VC_Title" = "Mes favoris";
+"CollectionViewModel_NoData_Tip" = "Trouvez les derniers styles et ajoutez vos favoris!";
+
+/*Account*/
+"Account_VC_Title" = "Mon Compte";
+"Account_VC_SignOut_Alert_Message" = "Êtes-vous sûr de vous déconnecter?";
+"Account_VC_SignOut_Alert_No" = "NON";
+"Account_VC_SignOut_Alert_Yes" = "OUI";
+
+"Account_Cell_Orders" = "Mes commandes";
+"Account_Cell_Points" = "Mes points";
+"Account_Cell_Coupon" = "Mes Coupons";
+"Account_Cell_Address" = "Adresse";
+"Account_Cell_Password" = "Modifier le mot de passe";
+"Account_Cell_Currency" = "Devise";
+"Account_Cell_Setting" = "Réglage";
+"Account_Cell_Help" = "Aidez-moi";
+"Account_SignOut_Button" = "DÉCONNEXION";
+"Account_Cell_Message_Us" = "Envoyez-nous un message";
+
+"AccoundHeaderView_TackPhoto" = "Prendre une photo";
+"AccoundHeaderView_ChooseAlbum" = "Choisissez de l'album";
+"AccoundHeaderView_Settings_Camera" = "Autoriser Zaful à accéder à votre appareil photo. (Dans Paramètres> Confidentialité> Appareil photo)";
+"AccoundHeaderView_Settings_Photos" = "Autoriser Zaful à accéder à vos photos. (Dans Paramètres> Confidentialité> Photos)";
+"AccoundHeaderView_Divice_Unavailable" = "Désolé, aucune caméra ou caméra n'est disponible.";
+
+/*My Orders*/
+"MyOrders_VC_Title" = "Mes commandes";
+"MyOrders_Cell_Order" = "Commande";
+"MyOrders_Cell_Total" = "Total";
+"MyOrders_Cell_TotalPayable" = "Montant total à payer";
+"MyOrders_Cell_PayNow" = "Payez maintenant";
+"ZFOrderList_Contact_us" = "Contactez-Nous";
+
+"MyOrdersViewModel_PaymentStatusCancel_Message" = "Paiement annulé. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"MyOrdersViewModel_PaymentStatusCancel_Title" = "Paiement annulé";
+"MyOrdersViewModel_PaymentStatusFail_Message" = "Paiement échoué. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"MyOrdersViewModel_PaymentStatusFail_Title" = "Paiement échoué";
+
+"MyOrdersViewModel_NoData_Tip" = "Vous n'avez pas encore de commande!";
+"MyOrdersViewModel_Cancel_Order_Message" = "Vous ne pouvez pas annuler cette commande!";
+
+//Order Detail
+"OrderDetail_VC_Title" = "Détails de la commande";
+"OrderDetailViewController_COD_cost" = "Coût de la COD";
+"DeliveryShippingView_deliveryLabel" = "La commande est prise avec succès. Nous vous téléphonerons à propos de votre commande pendant 48 heures. Veuillez répondre à votre téléphone à temps.";
+
+"OrderDetailViewModel_CancelOrder_Message" = "Êtes-vous sûr de vouloir annuler cette commande?";
+"OrderDetailViewModel_CancelOrder_No" = "NON";
+"OrderDetailViewModel_CancelOrder_Yes" = "OUI";
+
+
+//Order Cell
+"OrderDetail_Order_Cell_Order" = "Commande";
+"OrderDetail_Cell_PaymentStatusCancel_Message" = "Paiement annulé. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"OrderDetail_Cell_PaymentStatusCancel_Title" = "Paiement annulé";
+"OrderDetail_Cell_PaymentStatusFail_Message" = "Paiement échoué. Appuyez sur \ 'Payez maintenant \' pour réessayer!";
+"OrderDetail_Cell_PaymentStatusFail_Title" = "Paiement échoué";
+"OrderDetail_Cell_CancelOrder_Message" = "Êtes-vous sûr de vouloir annuler cette commande?";
+"OrderDetail_Cell_CancelOrder_No" = "NON";
+"OrderDetail_Cell_CancelOrder_Yes" = "OUI";
+
+//Delivery Cell
+"OrderDetail_Delivery_Cell_Date" = "Date";
+"OrderDetail_Delivery_Cell_Delivery" = "Livraison";
+"OrderDetail_Delivery_Cell_Payment" = "Paiement";
+
+//Goods Cell
+"OrderDetail_Goods_Cell_Sku" = "SKU";
+"OrderDetail_Goods_Cell_Color" = "Couleur";
+"OrderDetail_Goods_Cell_Size" = "Taille";
+"OrderDetail_Goods_Cell_Total" = "Total";
+"OrderDetail_Goods_Cell_WriteReview" = "    Écrire une critique    ";
+"OrderDetail_Goods_Cell_CheckMyReview" = "    Vérifiez mon avis    ";
+
+//TotalPrice Cell
+"OrderDetail_TotalPrice_Cell_Subtotal" = "Sous-total";
+"OrderDetail_TotalPrice_Cell_RewardsSaving" = "Z Points Enregistrement";
+"OrderDetail_TotalPrice_Cell_PromotionCodeSaving" = "Remise dans l’événement";
+"OrderDetail_TotalPrice_Cell_ShippingCost" = "Frais de port";
+"OrderDetail_TotalPrice_Cell_ShippingInsurance" = "L'assurance d'expédition";
+"OrderDetail_TotalPrice_Cell_GrandTotal" = "Somme Finale";
+"OrderDetail_TotalPrice_Cell_TotalPayable" = "Montant total à payer";
+"OrderDetail_TotalPrice_Cell_Discount" = "Remise de Contre-Remboursement";
+"OrderDetail_TotalPrice_Cell_AirCargoInsurance" = "Assurance pour le transport aérien";
+"OrderDetail_TotalPrice_Cell_PayNow" = "    Payez maintenant    ";
+"OrderDetail_TotalPrice_Cell_Contiue" = "Continuer à payer";
+"OrderDetail_TotalPrice_Cell_Check" = "Boleto";
+
+/*OrderFinishViewController*/
+"OrderFinishViewController_tipLab4" = "Nous serons les marchandises dès que possible à vos mains, faites attention à la vérification.";
+"OrderFinishViewController_tipLab3" = "Montant du paiement:%@";
+"OrderFinishViewController_tipLab1" = "Commande:%@";
+"OrderFinishViewController_tipLab2" = "Méthode de paiement: en espèces à la livraison";
+
+//Write a review
+"WriteReview_VC_Title" = "Écrire une critique";
+"WriteReview_Sku" = "SKU";
+"WriteReview_Color" = "Couleur";
+"WriteReview_Size" = "Taille";
+"WriteReview_Total" = "Total";
+"WriteReview_Note" = "Note: Partagez et obtenez 20 Z Point, les 5 premiers à soumettre les deux critiques recevront les points DOUBLE Z!";
+
+"WriteReview_Rating" = "Évaluation";
+"WriteReview_Content" = "Contenu";
+"WriteReview_Textfiled_Placeholder" = "Écrivez au moins 30 caractères";
+"WriteReview_Textfiled_Min_Tip" = "Écrivez au moins 30 caractères";
+"WriteReview_Textfiled_Max_Tip" = "Ne dépassez pas 3000 caractères.";
+"WriteReview_Submit" = "Soumettre";
+
+//Check my review
+"CheckMyReview_VC_Title" = "Vérifiez mon avis";
+"CheckMyReview_Sku" = "SKU";
+"CheckMyReview_Color" = "Couleur";
+"CheckMyReview_Size" = "Taille";
+"CheckMyReview_Total" = "Total";
+
+/*My Points*/
+"MyPoints_VC_Title" = "Mes points";
+"MyPoints_Rewards_Label" = "points";
+"MyPoints_WhatPoints_VC_Title" = "Qu'est-ce que sont Z POINTS";
+"MyPoints_EmptyData_Tip" = "Vous n'avez aucun point Z";
+
+/*My Coupon*/
+"MyCoupon_VC_Title" = "Mes Coupons";
+"MyCoupon_VC_Header_Label" = "Vous pouvez les utiliser lorsque vous consultez!";
+"MyCoupon_Coupon_Cell_CouponCode" = "Code Coupon";
+"MyCoupon_Coupon_Cell_Expires_Date" = "date";
+
+"MyCoupon_Coupon_Unused" = "Non utilisé";
+"MyCoupon_Coupon_Used" = "Déjà utilisé";
+"MyCoupon_Coupon_Expired" = "Expiré";
+
+"MyCouponViewModel_NoData_TitleLabel" = "Vous n'avez pas de coupon disponible maintenant!";
+
+/*My Address*/
+"Address_VC_Title" = "Adresse de livraison";
+"Address_VC_Add_Address" = "AJOUTER UNE NOUVELLE ADRESSE";
+"Address_VC_Done" = "Terminé";
+"Address_VC_Edit" = "Edit";
+
+"Address_List_Cell_Default" = "Défaut";
+"Address_List_Cell_Delete" = "Effacer";
+"Address_List_Cell_Edit" = "Modifier";
+
+"AddressListViewModel_NoData_Add_Address" = "AJOUTER UNE NOUVELLE ADRESSE";
+"AddressListViewModel_NoData_Title" = "Veuillez ajouter une adresse";
+"ProvinceViewModel_NoSelect_Tip" = "Veuillez revenir à nouveau";
+
+//ModifyAddressViewController
+"Modify_Address_VC_Title" = "Adresse de livraison";
+"ModifyAddress_FristName_Placeholder" = "Prénom";
+"ModifyAddress_LastName_Placeholder" = "Nom de famille";
+"ModifyAddress_EmailAddress_Placeholder" = "Adresse e-mail";
+"ModifyAddress_PhoneNum_Placeholder" = "Numéro de téléphone";
+"ModifyAddress_City_Placeholder" = "Ville";
+"ModifyAddress_Province_Placeholder" = "Département";
+"ModifyAddress_ZipCode_Placeholder" = "Zip / code postal";
+"ModifyAddress_Country_Placeholder" = "Pays";
+"ModifyAddress_State_Placeholder" = "Région/Province";
+"ModifyAddress_Address1_Placeholder" = "Adresse1";
+"ModifyAddress_Address2_Placeholder" = "Adresse2";
+"ModifyAddress_Supplier_Placeholder" = "Sélectionner";
+"ModifyAddress_Set_Default" = "Définir comme adresse par défaut";
+"ModifyAddress_Landmark" = "Repère au Sol";
+"ModifyAddress_Landmark_Tips" = "Les repères au sol près d’ici : le nom de bâtiment, le centre commercial, l’agence, etc.";
+"ModifyAddress_Alternate_phone" = "Alternatif";
+"ModifyAddress_Continue" = "CONTINUER";
+"ModifyAddress_Least_Digits" = "Le numéro de téléphone doit inclure au moins %@ chiffres.";
+"ModifyAddress_include_Digits" = "Le numéro de téléphone ne peut que inclure %@ chiffres.";
+"ModifyAddress_Extra_Tips" = "Complétez les informations pour gagner 10 Points supplémentaires";
+
+"ModifyAddress_FirstName_TipLabel" = "Entrez un prénom";
+"ModifyAddress_LastName_TipLabel" = "Entrez un nom de famille";
+"ModifyAddress_Email_TipLabel" = "Entrez une adresse email valide";
+"ModifyAddress_Phone_TipLabel" = "Entrez le numéro de téléphone";
+"ModifyAddress_Recipient_TipLabel" = "Sélectionnez le pays du destinataire";
+"ModifyAddress_City_TipLabel" = "Entrez la ville du destinataire";
+"ModifyAddress_City_AllNum_TipLabel" = "Entrez un nom de ville valide";
+"ModifyAddress_Address1_TipLabel" = "Entrez la première ligne de l'adresse";
+"ModifyAddress_Address2_TipLabel" = "Entrez la deuxième ligne de l'adresse";
+"ModifyAddress_ZipCode_TipLabel" = "Entrez le Zip/Code Postal";
+"ModifyAddress_Country_TipLabel" = "Entrez le comté du consignataire";
+"ModifyAddress_State_TipLabel" = "Entrez l'État / comté du destinataire";
+"ModifyAddress_Supplier_TipLabel" = "Sélectionnez le numéro d'opérateur";
+"ModifyAddress_Shipping_TipLabel" = "L'adresse d'expédition doit être d'au moins %@ caractères long";
+"ModifyAddressViewController_cardPlaceLabel" = "Numéro national d'identité";
+"ModifyAddressViewController_cardField" = "Entrez votre numéro d'identification pour l'inspection de douane aléatoire";
+"ModifyAddressViewController_cardTipLabel1" = "Veuillez fournir votre numéro d'identification pour le cas de l'inspection douanière aléatoire.";
+"ModifyAddressViewController_cardTipLabe2" = "Votre numéro d'identification devrait être un numéro à 10 chiffres";
+"ModifyAddress_MoreThan_TipLabel" = "Entrez pas plus de %@ caractères";
+"ModifyAddress_Maxmum_TipLabel" = "Vous pouvez écrire un maximum de %@ caractères";
+"ModifyAddress_Minimum_TipLabel" = "Votre doit contenir un minimum de %@ caractères";
+"ModifyAddressViewController_cardPlaceLabel" = "Numéro national d'identité";
+"ModifyAddressViewController_cardField" = "Entrez votre numéro d'identification pour l'inspection de douane aléatoire";
+"ModifyAddressViewController_cardTipLabel1" = "Veuillez fournir votre numéro d'identification pour le cas de l'inspection douanière aléatoire.";
+"ModifyAddressViewController_cardTipLabe2" = "Votre numéro d'identification devrait être un numéro numérique 10";
+"ModifyAddressViewController_phone_message" = "Merci de choisir votre pays";
+
+"ModifyAddress_Success_Show_Message" = "Vos informations d'adresse ont été mises à jour avec succès! Je vous remercie!";
+
+/*My Password*/
+"ChangePassword_VC_Title" = "Modifier le mot de passe";
+"ChangePassword_VC_OrignPassword" = "Le mot de passe d'origine";
+"ChangePassword_VC_NewPassword" = "Nouveau mot de passe";
+"ChangePassword_VC_ConfirmPassword" = "Confirmer le nouveau mot de passe";
+"ChangePassword_VC_ResetPassword" = "RÉINITIALISER MON MOT DE PASSE";
+"ChangePassword_VC_NotMatch_Message" = "Mots de passe différents : Merci de saisir le même mot de passe.";
+"ChangePassword_VC_Confirm_Message" = "Veuillez confirmer le mot de passe";
+"ChangePassword_VC_Provide_Message" = "Veuillez fournir un mot de passe";
+"ChangePassword_VC_Least_Message" = "Entrez au moins 5 caractères";
+"ChangePassword_VC_Most_Message" = "Entrez au maximum 50 caractères.";
+"ChangePassword_VC_Request_Failure_Message" = "L'opération a échoué, réessayez！";
+
+/*Change Password Success*/
+"ChangePassword_Success_Customer" = "Cher client,";
+"ChangePassword_Success_NewPassword" = "Votre nouveau mot de passe a été activé!";
+"ChangePassword_Success_SigninLater" = "Connectez-vous plus tard";
+"ChangePassword_Success_SignInNow" = "Connectez vous maintenant";
+
+/*My Currency*/
+"Currency_VC_Title" = "Devise";
+
+/*My Setting*/
+"Setting_VC_Title" = "Réglage";
+"Setting_Cell_RateUs" = "Évaluez-nous";
+"Setting_Cell_ClearCache" = "Vider le cache";
+"Setting_Cell_Version" = "Version";
+"Setting_Cell_Languege" = "Langue";
+
+/* languge setting */
+"Languge_Setting_English" = "Anglais";
+"Languge_Setting_Arabic"  = "Arábica";
+"Languge_Setting_Spanish" = "Español";
+"Languge_Setting_French"  = "francés";
+
+"SettingViewModel_Cache_Alert_Message" = "Le cache de l'application a été effacé!";
+"SettingViewModel_Cache_Alert_OK" = "OK";
+"SettingViewModel_Version_Alert_Title" = "Version";
+//"SettingViewModel_Version_Alert_Message" = "Nouvelle version (%@), version actualisée maintenant";
+"SettingViewModel_Version_Alert_Message" = "Zaful vient de changer d'une nouvelle version. Mise à jour maintenant.";
+//"SettingViewModel_Version_Alert_NotNow" = "Pas maintenant";
+"SettingViewModel_Version_Alert_NotNow" = "Non";
+//"SettingViewModel_Version_Alert_Update" = "Mettre à jour";
+"SettingViewModel_Version_Alert_Update" = "Oui";
+"SettingViewModel_Version_Latest_Alert_Message" = "La version actuelle est la dernière.";
+"SettingViewModel_Version_Latest_Alert_OK" = "OK";
+
+/*My Help*/
+"Help_VC_Title" = "Aidez-moi";
+
+/*Profile*/
+"Profile_VC_Title" = "Profile";
+"Profile_FirstName_Placeholder" = "Prénom";
+"Profile_LastName_Placeholder" = "Nom de famille";
+"Profile_NickName_Placeholder" = "Surnom";
+"Profile_Male" = " M ";
+"Profile_Female" = " Mme ";
+"Profile_Privacy" = " Privé ";
+"Profile_Birthday_Placeholder" = "Anniversaire";
+"Profile_Phone_Placeholder" = "Téléphone";
+"Profile_EmailAddress_Placeholder" = "Adresse e-mail";
+"Profile_Save_Button" = "Enregistrer";
+
+"Profile_Enter_FirstName_Message" = "Entrez le prénom";
+"Profile_Least_FirstName_Message" = "Votre prénom doit avoir au moins 2 caractères";
+"Profile_Maxium_FirstName_Message" = "Le maximum de prénom doit être de 32 caractères";
+"Profile_Enter_LastName_Message" = "Veuillez saisir le nom de famille";
+"Profile_Least_LastName_Message" = "Votre nom de famille doit avoir au moins 2 caractères";
+"Profile_Maxium_LastName_Message" = "Le maximum de nom de famille doit être de 32 caractères";
+"Profile_Enter_Phone_Message" = "Entrez le numéro de téléphone";
+"Profile_Least_Phone_Message" = "Votre numéro de téléphone doit comporter au moins 6 caractères";
+"Profile_Maxium_Phone_Message" = "The maxium of the phone number should be 20 characters";
+"Profile_Enter_NickName_Message" = "Entrez le surnom";
+"Profile_Least_NickName_Message" = "Votre pseudonyme doit avoir au moins 2 caractères";
+"Profile_Maxium_NickName_Message" = "Le maximum de surnom doit être de 35 caractères";
+"Profile_Personal_Success_Message" = "Vos informations personnelles ont été modifiées avec succès!";
+
+/*InputTextView*/
+"InputTextView_message" = "Doit être inférieur à 300 caractères.";
+"InputTextView_Send" = "Envoyer";
+
+/*Community*/
+"Community_Follow" = "Suivre";
+"Community_TOP" = "TOP";
+"Community_Big_Views" = "Vues";
+"Community_Little_Views" = "vues";
+
+"Community_ShareTitle" = "Dernières offres de mode";
+"Community_ShareContent" = "Mon émission de style sur Zaful, est-ce que vous l'aimez?";
+
+/*CommunityViewController*/
+"Community_Tab_Title_Faves" = "Favoris";
+"Community_Tab_Title_Explore" = "Explore";
+"Community_Tab_Title_Outfits" = "Tenues";
+"Community_HeaderView_HotVideo" = "Vidéo chaude";
+"Community_HeaderView_HotTopic" = "Sujet brûlant";
+"Community_HeaderView_RecentPosts" = "Messages récents";
+"Community_HeaderView_More" = "Plus";
+
+/*VideoListViewController*/
+"VideoList_VC_Title" = "Z-Live";
+"Video_VC_TextView_Placeholder" = "Qu'est-ce que tu penses";
+"Video_VC_CannotPost_Message" = "Vous ne pouvez pas commenter votre propre publication.";
+
+"VideoViewViewModel_NoData_Title" = "Les messages de votre Popular apparaîtront ici";
+"VideoViewViewModel_Refresh" = "Rafraîchir";
+
+/*VideoHeaderView*/
+"VideoView_HeaderView_Title" = "Commentaires";
+
+/*TopicListViewController*/
+"TopicList_VC_Title" = "Liste du sujet";
+"TopicHead_Cell_JoinedIn" = "rejoint en";
+"TopicHead_Cell_ViewAll" = "VOIR TOUT";
+
+/*alertview*/
+"TopicLabelDeleteAlertView" = "Êtes-vous sûr?";
+
+//Topic Detail
+"Topic_VC_Title" = "Détail du sujet";
+"TopicDetailView_Ranking" = "CLASSEMENT";
+"TopicDetailView_Latest" = "DERNIER";
+"TopicDetailView_Reviews" = "Avis";
+"TopicDetailView_ViewAll" = "VOIR TOUT";
+"TopicDetailView_joinIn" = "Se Joindre";
+
+/*CommunityDetailViewController*/
+"CommunityDetail_VC_TextView_Placeholder" = "Qu'est-ce que tu penses";
+"CommunityDetail_VC_CannotPost_Message" = "Vous ne pouvez pas commenter votre propre article.";
+
+/*CommunityDetailHeaderCell*/
+"CommunityDetailHeaderCell_Likes" = "Aime";
+
+/*FollowViewController*/
+"Follow_VC_Title_LikedBy" = "Aimé par";
+"Follow_VC_Title_Following" = "Suivi";
+"Follow_VC_Title_Followers" = "Suiveurs";
+
+/*FollowViewModel*/
+"FollowViewModel_NoData_GetStatus" = "Suivre les autres peut obtenir son statut récent";
+"FollowViewModel_NoData_NotAny" = "Pas encore suivi";
+"FollowViewModel_NoData_AddPhotos" = "Ajouter des photos pour obtenir des Suiveurs";
+"FollowViewModel_NoData_NoFollowers" = "Aucun Suiveurs";
+
+/*PopularViewModel*/
+"PopularViewModel_NoData_Title" = "Les messages de votre Popular apparaîtront ici";
+"PopularViewModel_Refresh" = "Rafraîchir";
+
+/*FavesCommendHeadView*/
+"FavesCommendHeadView_RecommendUp" = "Recommander";
+
+/*FavesViewModel*/
+"FavesViewModel_NoData_Title" = "Vous trouverez des amis et des blogueurs qui partagent leurs conseils d'achat ici, suivez-les maintenant.";
+"FavesViewModel_NoData_AddMoreFriends" = "  Ajouter plus d'amis ";
+
+//Z-Me
+"MyStylePage_VC_Title" = "Z-Me";
+"MyStylePage_SubVC_Shows" = "Montre";
+"MyStylePage_SubVC_Likes" = "Aimes";
+"MyStylePage_SubVC_Outfits" = "Tenues";
+"MyStylePage_Unfollow_Tip" = "Êtes-vous sûr de ne pas suivre";
+"MyStylePage_Unfollow" = "Désabonner";
+
+/*StyleSelectView*/
+"StyleSelectView_Shows" = "Montre";
+"StyleSelectView_Likes" = "Aimes";
+
+/*StyleHeaderView*/
+"StyleHeaderView_Followed" = "Suivi";
+"StyleHeaderView_Following" = "Suivi";
+"StyleHeaderView_Followers" = "Suiveurs";
+"StyleHeaderView_BeLiked" = "être aimé";
+
+/*CommendUserCell*/
+"CommendUserCell_Posts" = "Postes";
+"CommendUserCell_BeLiked" = "être aimé";
+
+/*ADD More Friend*/
+"AddMoreFriends_VC_Title" = "Ajouter plus d'amis";
+"CommunitySearchNoResultTips" = "Désolé,\n Aucun resultat ne correponsant à votre recherche.";
+/*FriendsResultCell*/
+"FriendsResultCell_Posts" = "Postes";
+"FriendsResultCell_BeLiked" = "être aimé";
+
+/*ContactsViewController*/
+"Contacts_VC_Title" = "Contacts";
+"Contacts_VC_Message" = "Rejoignez la communauté Z-Me maintenant! De grands coupons et cadeaux sont en attente et vous pouvez voir des expériences de magasinage et des idées de mode sur zaful.com.";
+"Contacts_VC_Send" = "Envoyer";
+
+/*FriendsCommendHeadView*/
+"AddMoreFriends_Contacts" = "Contacts";
+"AddMoreFriends_FaceBook" = "Amis Facebook";
+"AddMoreFriends_Suggested" = "utilisateurs suggérés";
+
+
+//post topic
+"Post_VC_Post" = "Post";
+"Post_VC_Post_TextView_Placeholder" = "Dis quelque chose sur cette photo (0/500)";
+"Post_VC_Post_AddTopics" = "Ajouter des sujets";
+"Post_VC_Post_AddItems" = "Ajouter des éléments";
+"Post_VC_Post_Cancel_Message" = "Annuler votre avis?";
+"Post_VC_Post_Cancel_No" = "NON";
+"Post_VC_Post_Cancel_Yes" = "OUI";
+"Post_VC_Post_NoPhotos_Tip" = "N'oubliez pas d'ajouter des photos!";
+"Post_VC_Post_MaxTag_Tip" = "Vous ne pouvez sélectionner que 6 balises";
+"Post_VC_Post_TextView_Tip" = "Doit être inférieur à 500 caractères.";
+"Post_VC_Post_Alert_OK" = "OK";
+"Post_VC_Post_Success_Tips" = "Vous avez réussi à Poster !";
+"Post_VC_Post_Success_Points_Tips" = "30 Points Z Obtenus ";
+
+/*GoodsPageViewController*/
+"GoodsPage_VC_WishList" = "J'adore";
+"GoodsPage_VC_Bag" = "Sac";
+"GoodsPage_VC_Order" = "Commande";
+"GoodsPage_VC_Recent" = "Récent";
+"GoodsPage_VC_Done" = "Terminé";
+
+"Post_ViewModel_Alert_NoItem_Tip" = "Vous avez déjà ajouté l'élément";
+"Post_ViewModel_Alert_MaxItem_Tip" = "Vous ne pouvez sélectionner que 6 éléments";
+
+/*RecentViewModel*/
+"RecentViewModel_NoData_Title" = "Désolé, nous n'avons rien trouvé dans votre vue récente";
+
+/*ContactsViewModel*/
+"ContactsViewModel_AuthorizationFailure_Title" = "Impossible d'accéder au contact";
+"ContactsViewModel_AuthorizationFailure_Message" = "Veuillez autoriser Zaful à accéder à votre contact en allant dans Paramètres> Confidentialité> Contacts";
+"ContactsViewModel_AuthorizationFailure__OK" = "OK";
+"ContactsViewModel_AuthorizationFailure__GoToSetting" = "Aller au Réglage";
+
+/*SeeAllCell*/
+"SeeAllCell_SeeAll" = "Voir tout";
+
+/*LikesViewModel*/
+"LikesViewModel_NoData_NotLikes" = "Pas encore aimé";
+
+/*ShowsViewModel*/
+"ShowsViewModel_NoData_NotShowed" = "Pas encore montré";
+"AccountOutfits_NoData_NotOutfits" = "Vous n'avez pas encore publié de Looks.";
+"AccountOtherOutfits_NoData_NotOutfits" = "Il n'y a pas encore de look créé.";
+/*TopicViewModel*/
+"TopicViewModel_NoData_FirstJoined" = "Soyez le premier à participer";
+
+/*WishlistViewModel*/
+"WishlistViewModel_NoData_CannotFind" = "Désolé, nous n'avons rien trouvé dans votre liste de souhaits";
+
+/*MessagesViewModel*/
+"MessagesViewModel_title" = "Messages";
+"MessagesViewModel_NoData_Message" = "Désolé, vous n'avez pas encore de message";
+"MessagesViewModel_Data_Detete" = "Le message a été supprimé";
+
+"FriendsCommendViewModel_Share_Content" = "Couou les amis ! Rejoignez-moi vite sur Zaful pour partager notre passion de la mode !";
+"ZFShare_Community_post" = "Regardez ça, je viens de poster un truc marrant !";
+"ZFShare_Community_topic" = "Les filles, je partage le sujet avec vous ! Venez bavarder tous ensemble :p";
+"ZFShare_Community_outfits" = "Tiens, j’ai crée un look sur ZAFUL!";
+
+/*FriendsResultViewModel*/
+"FriendsResultViewModel_NoData_Message" = "Désolé, \n aucun résultat ne correspondait à votre demande de recherche";
+
+"TimeLapse_Later" = "plus tard";
+"TimeLapse_Ago" = "il y a";
+"TimeLapse_Secs" = "secs";
+"TimeLapse_Sec" = "sec";
+"TimeLapse_Mins" = "mins";
+"TimeLapse_Min" = "min";
+"TimeLapse_Hours" = "heures";
+"TimeLapse_Hour" = "heur";
+"TimeLapse_Days" = "journées";
+"TimeLapse_Day" = "journée";
+"TimeLapse_Months" = "mois";
+"TimeLapse_Month" = "mois";
+"TimeLapse_Years" = "années";
+"TimeLapse_Year" = "an";
+
+/*DZNEmptyDataSet*/
+"EmptyCustomViewManager_titleLabel" = "Le chargement a échoué, réessayez ultérieurement.";
+"EmptyCustomViewManager_refreshButton" = "Rafraîchir";
+
+
+/*YYPhotoBrowseView*/
+"Save_Picture" = "Sauvegarder la photo";
+
+
+"ZFTracking_information_title" = "Infos Sur Votre Colis";
+"ZFTracking_number" = "Numéro de Suivi";
+"ZFTrackingNoData" = " Pas encore d’infos de suivi";
+"ZFPackage" = "Colis%ld";
+
+
+"ZFOrderList_Learn_more" = "En Savoir Plus";
+"ZFOrderInfo_Or"         = "ou";
+
+"ZFCheckout_mybag" = "Mon panier";
+
+/* payMethod */
+"ZFPaymentTitle" = "Choisir le Mode de Paiement";
+"ZFPaymentTips" = "Certains articles dans votre commande pourraient être payés à la livraison, veuillez sélectionner le mode de paiement d’abord.";
+"ZFPaymentCod" = "Paiement À La Livraison";
+"ZFPaymentCodTip" = "Certains articles dans votre commande pourraient être payés à la livraison.\nLes autres articles seront renvoyé au Colis de Livraison.";
+"ZFPaymentOnline" = "Paiement En Ligne";
+"ZFPaymentOnlineTip" = "Tous les articles pourraient être payés en ligne.";
+"ZFPaymentCombine" = "Paiement Combinatoire";
+"ZFPaymentCombineTip" = "Paiement À La Livraison + Paiement En Ligne";
+"ZFPayStateSuccess" = "Avec Succès";
+"ZFPayStateSMSVerification" = "vérification de SMS";
+"ZFPayStateSMSRequired" = "Vérification de SMS requise";
+"ZFPayStateWaiting" = "En attent de paiement";
+"ZFPayStateCodTip" = "Le stock d’article est vraiment limité, veuillez soumettre le paiement maintenant. Le traitement vous demande à soumettre la vérification de SMS.";
+"ZFPayStateOnlineTip" = "Certains articles ne soutiennent que le Paiement En Ligne, veuillez soumettre le paiement tout de suite.";
+"ZFPayStateAuthorize" = "Autoriser le paiement de %@";
+"ZFOrderEvent" = "Promos & Soldes";
+"ZFPayStateOnlineFailed" = "Paiement en ligne échoué";
+"ZFOrderUsedCoupon" = "Ce coupon a déjà été utilisé.";
+
+"OrderDetail_Coupon_Header" = "Coupon(s) Indisponible(s)";
+"MyCoupon_Coupon_Warning_Title"   = "Coupon Promotionnel :";
+"MyCoupon_Coupon_Warning_Content"   = "économiser %@";
+"MyCoupon_Coupon_No_Available" = "Aucun coupon disponible";
+"MyCoupon_Coupon_Available" = "%ld Coupon(s) Disponible(s)";
+"My_Coupon_UserIt"  = "Utilisez-le";
+"OrderDetail_CouponCode_InputplaceholderText" = "Sélectionner ou entrer le code";
+
+"mine_coupon_expired_imagename" = "mine_coupon_expired_fr";
+"mine_coupon_used_imagename" = "mine_coupon_used_fr";
+"goods_detail_outofstock_imageName" = "OutofStock_fr";
+"goods_detail_soldout_imageName" = "soldout_fr";

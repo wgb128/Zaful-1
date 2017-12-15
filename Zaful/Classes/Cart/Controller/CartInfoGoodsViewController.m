@@ -1,0 +1,83 @@
+//
+//  CartInfoGoodsViewController.m
+//  Zaful
+//
+//  Created by zhaowei on 2017/4/20.
+//  Copyright © 2017年 Y001. All rights reserved.
+//
+
+#import "CartInfoGoodsViewController.h"
+#import "CartInfoGoodsListCell.h"
+#import "CheckOutGoodListModel.h"
+
+@interface CartInfoGoodsViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) UITableView *tableView;
+@end
+
+@implementation CartInfoGoodsViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = ZFLocalizedString(@"CartInfo_Goods_VC_Title", nil);
+    [self initViews];
+}
+
+- (void)initViews {
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.leading.trailing.mas_equalTo(self.view);
+    }];
+}
+
+#pragma mark - Lazy
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
+        _tableView.estimatedRowHeight = 80;
+        _tableView.showsHorizontalScrollIndicator = NO;
+        _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    }
+    return _tableView;
+}
+
+#pragma mark - UITableView DataSource and Delegate
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.goodsList.count;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return CGFLOAT_MIN;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    CartInfoGoodsListCell *cell = [CartInfoGoodsListCell cellWithTableView:tableView indexPath:indexPath];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    CheckOutGoodListModel *goodsModel = self.goodsList[indexPath.row];
+    cell.goodsModel = goodsModel;
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    return nil;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return nil;
+}
+
+
+
+@end

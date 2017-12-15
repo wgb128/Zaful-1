@@ -1,0 +1,13 @@
+
+"enabled"             =   "activée";
+
+"disabled"            =   "désactivée";
+
+"already disabled"    =   "Déjà désactivé";
+
+"already enabled"     =   "Déjà activé";
+
+"You must set UIWindow.rootViewController in your AppDelegate to work with IQKeyboardManager"  =   "Vous devez configurer UIWindow.rootViewController dans votre AppDelegate pour fonctionner avec IQKeyboardManager";
+
+"Previous"                              =   "précédent";
+"Next"                                  =   "Prochain";
